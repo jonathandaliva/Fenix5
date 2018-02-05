@@ -408,9 +408,14 @@ class lateView extends Ui.WatchFace {
 
     function drawBatteryLevel (dc){
         var bat = Sys.getSystemStats().battery;
+        var xPos = centerX-10;
+        var yPos = batteryY;
+        dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_BLACK);
+        dc.drawText(xPos, yPos, fontSmall, "W: " + bat + "%", Gfx.TEXT_JUSTIFY_CENTER);
+        
         //batThreshold=100;bat = 10;
-
-        //if(bat<=batThreshold){
+		
+        /*if(bat<=batThreshold){
 
             var xPos = centerX-10;
             var yPos = batteryY;
@@ -438,7 +443,7 @@ class lateView extends Ui.WatchFace {
                 dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_BLACK);
                 dc.fillRectangle(xPos + 1, yPos + 1, 1, 8);
             }
-       // }
+       }*/
     }
 
 
