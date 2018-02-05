@@ -162,7 +162,8 @@ class lateView extends Ui.WatchFace {
             utcOffset = clockTime.timeZoneOffset;
             computeSun();
         }
-
+		
+		//If watch is active
         if(activity>0){ 
             dateColor = 0xaaaaaa;
             if(activity == 1) { icon = Ui.loadResource(Rez.Drawables.Steps); }
@@ -287,7 +288,9 @@ class lateView extends Ui.WatchFace {
             }
             drawBatteryLevel(dc);
             //drawMinuteArc(dc);
-            drawSecondArc(cd);
+            //if(activity > 0){
+            	drawSecondArc(dc);
+            //}
         }
         
         if (0>redrawAll) { redrawAll--; }
@@ -309,21 +312,20 @@ class lateView extends Ui.WatchFace {
         var offset=0;
         var gap=0;
 
-        dc.setColor(Gfx.COLOR_WHITE, 0);
-        //dc.drawText(centerX + (radius * sin), centerY - (radius * cos) , fontMinutes, minutes /*clockTime.min.format("%0.1d")*/, CENTER);
+        dc.setColor(Gfx.COLOR_GREEN, 0);
 
-        if(minutes>0){
-            dc.setColor(color, 0);
+        if(seconds>0){
+            //dc.setColor(Gfx.COLOR_GREEN, 0);
             dc.setPenWidth(circleWidth);
             
-            if(minutes>=10){
-                if(minutes>=52){
+            if(seconds>=10){
+                if(seconds>=52){
                     offset=12;
-                    if(minutes==59){
+                    if(seconds==59){
                         gap=4;    
                     } 
                 } else {
-                    if(minutes>=12&&minutes<=22){
+                    if(seconds>=12&&seconds<=22){
                         offset=9;
                     }
                     else {
@@ -331,10 +333,10 @@ class lateView extends Ui.WatchFace {
                     }
                 }
             } else {
-                if(minutes>=7){
+                if(seconds>=7){
                     offset=8;
                 } else {
-                    if(minutes==1){
+                    if(seconds==1){
                         offset=4;
                     } else {
                         offset=6;
@@ -342,7 +344,7 @@ class lateView extends Ui.WatchFace {
                 }
 
             }
-            dc.drawArc(centerX, centerY, secradius, Gfx.ARC_CLOCKWISE, 90-gap, 90-minutes*6+offset);
+            dc.drawArc(centerX, centerY, secradius, Gfx.ARC_CLOCKWISE, 90-gap, 90-seconds*6+offset);
         }
 	}
 
@@ -408,7 +410,7 @@ class lateView extends Ui.WatchFace {
         var bat = Sys.getSystemStats().battery;
         //batThreshold=100;bat = 10;
 
-        if(bat<=batThreshold){
+        //if(bat<=batThreshold){
 
             var xPos = centerX-10;
             var yPos = batteryY;
@@ -436,7 +438,7 @@ class lateView extends Ui.WatchFace {
                 dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_BLACK);
                 dc.fillRectangle(xPos + 1, yPos + 1, 1, 8);
             }
-        }
+       // }
     }
 
 
