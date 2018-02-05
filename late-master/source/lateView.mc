@@ -266,7 +266,7 @@ class lateView extends Ui.WatchFace {
 			//Draw HR
 			var HRH=ActivityMonitor.getHeartRateHistory(1, true);
 			var HRS=HRH.next();
-			dc.drawText(centerX + 88,batteryY - 15,fontSmall,"hr:"+HRS.heartRate,Gfx.TEXT_JUSTIFY_CENTER);
+			dc.drawText(centerX + 82,batteryY - 15,fontSmall,"hr:"+HRS.heartRate,Gfx.TEXT_JUSTIFY_CENTER);
 			
 			//Draw Temp
 			// Check device for SensorHistory compatibility
@@ -439,7 +439,7 @@ class lateView extends Ui.WatchFace {
 
     function drawBatteryLevel (dc){
         var bat = Math.round(Sys.getSystemStats().battery).toNumber();
-        var xPos = centerX + 28;
+        var xPos = centerX + 25;
         var yPos = batteryY - 15;
         dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_BLACK);
         dc.drawText(xPos, yPos, fontSmall, "w:" + bat + "%", Gfx.TEXT_JUSTIFY_CENTER);
