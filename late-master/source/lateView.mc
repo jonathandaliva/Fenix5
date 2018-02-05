@@ -44,7 +44,7 @@ class lateView extends Ui.WatchFace {
     hidden var icon = null;
     hidden var fontSmall = null; 
     hidden var fontMinutes = null;
-    hidden var fontHours = null; 
+    hidden var fontHours = null;
     hidden var fontCondensed = null;
     
     hidden var dateY = null;
@@ -95,8 +95,10 @@ class lateView extends Ui.WatchFace {
                 circleWidth=circleWidth*3+1;
                 activityY= centerY+Gfx.getFontHeight(fontHours)>>1+5;
             } else {
-                fontMinutes = Ui.loadResource(Rez.Fonts.Minute240);
-                fontHours = Ui.loadResource(Rez.Fonts.Hours240px);
+                //fontMinutes = Ui.loadResource(Rez.Fonts.Minute240);
+                //fontHours = Ui.loadResource(Rez.Fonts.Hours240px);
+                fontHours = Ui.loadResource(Rez.Fonts.HoursBig240px);
+                fontMinutes = Ui.loadResource(Rez.Fonts.Hours240px);
                 fontSmall = Ui.loadResource(Rez.Fonts.Small240);
                 //radius = 63;
                 radius = 100;
@@ -140,6 +142,7 @@ class lateView extends Ui.WatchFace {
         color = App.getApp().getProperty("color");
         dateForm = App.getApp().getProperty("dateForm");
         activity = App.getApp().getProperty("activity");
+        activity = 2;  /* %REM REMOVE ---------------- TEST -----------------*/
         showSunrise = App.getApp().getProperty("sunriset");
         batThreshold = App.getApp().getProperty("bat");
         circleWidth = App.getApp().getProperty("boldness");
@@ -243,13 +246,21 @@ class lateView extends Ui.WatchFace {
             // TODO recalculate sunrise and sunset every day or when position changes (timezone is probably too rough for traveling)
 
             // draw hour
+            var ampm="am";
             if(Sys.getDeviceSettings().is24Hour == false){
-                if(h>11){ h-=12;}
-                if(0==h){ h=12;}
+                if(h>11){ h-=12; ampm="pm";}
+                if(0==h){ h=12; ampm="pm";}
             }
-            dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
-            dc.drawText(centerX, centerY-(dc.getFontHeight(fontHours)>>1), fontHours, h.format("%0.1d"), Gfx.TEXT_JUSTIFY_CENTER);    
 
+            h=12;
+            dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
+            if ( h >= 10 ) {
+				dc.drawText(centerX-65, centerY-(dc.getFontHeight(fontHours)>>1), fontHours, h.format("%0.1d"), Gfx.TEXT_JUSTIFY_CENTER);
+			} else {
+				dc.drawText(centerX-48, centerY-(dc.getFontHeight(fontHours)>>1), fontHours, h.format("%0.1d"), Gfx.TEXT_JUSTIFY_CENTER);
+			}
+			dc.drawText(centerX+35, centerY-(dc.getFontHeight(fontHours)>>1), fontMinutes, lastRedrawMin.format("%02d") , Gfx.TEXT_JUSTIFY_CENTER);
+			dc.drawText(centerX+95, centerY-(dc.getFontHeight(fontHours)>>1) - 6, fontSmall, ampm , Gfx.TEXT_JUSTIFY_CENTER);
 
             if(centerY>89){
 
@@ -288,9 +299,9 @@ class lateView extends Ui.WatchFace {
             }
             drawBatteryLevel(dc);
             //drawMinuteArc(dc);
-            //if(activity > 0){
+            if(activity > 0){
             	drawSecondArc(dc);
-            //}
+            }
         }
         
         if (0>redrawAll) { redrawAll--; }
@@ -407,11 +418,11 @@ class lateView extends Ui.WatchFace {
     }
 
     function drawBatteryLevel (dc){
-        var bat = Sys.getSystemStats().battery;
-        var xPos = centerX-10;
-        var yPos = batteryY;
+        var bat = Math.round(Sys.getSystemStats().battery).toNumber();
+        var xPos = centerX + 28;
+        var yPos = batteryY - 15;
         dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_BLACK);
-        dc.drawText(xPos, yPos, fontSmall, "W: " + bat + "%", Gfx.TEXT_JUSTIFY_CENTER);
+        dc.drawText(xPos, yPos, fontSmall, "w: " + bat + "%", Gfx.TEXT_JUSTIFY_CENTER);
         
         //batThreshold=100;bat = 10;
 		
