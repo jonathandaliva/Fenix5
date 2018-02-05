@@ -104,7 +104,8 @@ class lateView extends Ui.WatchFace {
                 radius = 100;
                 //dateY = centerY-90-(Gfx.getFontHeight(fontSmall)>>1);
                 secradius = 119;
-                dateY = centerY-80-(Gfx.getFontHeight(fontSmall)>>1);
+                //dateY = centerY-80-(Gfx.getFontHeight(fontSmall)>>1);
+                dateY = centerY-70-(Gfx.getFontHeight(fontSmall)>>1);
                 batteryY = centerY+38;
             }
         } else {
@@ -252,7 +253,7 @@ class lateView extends Ui.WatchFace {
                 if(0==h){ h=12; ampm="pm";}
             }
 
-            h=12;
+            //h=12;
             dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
             if ( h >= 10 ) {
 				dc.drawText(centerX-65, centerY-(dc.getFontHeight(fontHours)>>1), fontHours, h.format("%0.1d"), Gfx.TEXT_JUSTIFY_CENTER);
@@ -261,18 +262,37 @@ class lateView extends Ui.WatchFace {
 			}
 			dc.drawText(centerX+35, centerY-(dc.getFontHeight(fontHours)>>1), fontMinutes, lastRedrawMin.format("%02d") , Gfx.TEXT_JUSTIFY_CENTER);
 			dc.drawText(centerX+95, centerY-(dc.getFontHeight(fontHours)>>1) - 6, fontSmall, ampm , Gfx.TEXT_JUSTIFY_CENTER);
-
+			
+			//Draw HR
+			var HRH=ActivityMonitor.getHeartRateHistory(1, true);
+			var HRS=HRH.next();
+			dc.drawText(centerX + 88,batteryY - 15,fontSmall,"hr:"+HRS.heartRate,Gfx.TEXT_JUSTIFY_CENTER);
+			
+			//Draw Temp
+			// Check device for SensorHistory compatibility
+   			if ((Toybox has :SensorHistory) && (Toybox.SensorHistory has :getTemperatureHistory)) {
+				dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_BLACK);
+				var TempH=Toybox.SensorHistory.getTemperatureHistory({});
+				var TempS=TempH.next();
+				dc.drawText(centerX+105, centerY - 20, fontSmall, Lang.format("$1$ °",[TempS.data.toNumber().toString()]), Gfx.TEXT_JUSTIFY_CENTER);
+				
+			}
+			
+			//Draw forcast //TODO need to update this to pull location based on IP then pass that to openweathermap
+			//var latLon = Toybox.Position.info.position.toDegrees();
+			//Comm.makeJsonRequest("http://api.openweathermap.org/data/2.5/weather",{"lat"=>latLon[0].toFloat(), "lon"=>latLon[1].toFloat(),"appid"=>"f175ed51e7c728ca4b30395693a24d34"}, {}, method(:onReceive));
+			
+			
             if(centerY>89){
 
-                // draw Day info
+                // draw Date info
                 dc.setColor(dateColor, Gfx.COLOR_BLACK);
                 var text = "";
-                if(dateForm != null){
-                    text = Lang.format("$1$ ", ((dateForm == 0) ? [info.month] : [info.day_of_week]) );
-                }
-                text += info.day.format("%0.1d");
+                text = info.day_of_week + " " + info.month;
+                text += " " + info.day.format("%0.1d");
+                text += " " + info.year;
                 dc.drawText(centerX, dateY, fontSmall, text, Gfx.TEXT_JUSTIFY_CENTER);
-
+				
                 
                 /*dc.drawText(centerX, height-20, fontSmall, ActivityMonitor.getInfo().moveBarLevel, CENTER);
                 dc.setPenWidth(2);
@@ -422,7 +442,7 @@ class lateView extends Ui.WatchFace {
         var xPos = centerX + 28;
         var yPos = batteryY - 15;
         dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_BLACK);
-        dc.drawText(xPos, yPos, fontSmall, "w: " + bat + "%", Gfx.TEXT_JUSTIFY_CENTER);
+        dc.drawText(xPos, yPos, fontSmall, "w:" + bat + "%", Gfx.TEXT_JUSTIFY_CENTER);
         
         //batThreshold=100;bat = 10;
 		
