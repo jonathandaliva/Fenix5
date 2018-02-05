@@ -49,7 +49,8 @@ class lateView extends Ui.WatchFace {
     
     hidden var dateY = null;
     hidden var radius;
-    hidden var circleWidth = 3; 
+    hidden var secradius;
+    hidden var circleWidth = 2; 
     hidden var dialSize = 0;
     hidden var batteryY;
 
@@ -97,8 +98,11 @@ class lateView extends Ui.WatchFace {
                 fontMinutes = Ui.loadResource(Rez.Fonts.Minute240);
                 fontHours = Ui.loadResource(Rez.Fonts.Hours240px);
                 fontSmall = Ui.loadResource(Rez.Fonts.Small240);
-                radius = 63;    
-                dateY = centerY-90-(Gfx.getFontHeight(fontSmall)>>1);
+                //radius = 63;
+                radius = 100;
+                //dateY = centerY-90-(Gfx.getFontHeight(fontSmall)>>1);
+                secradius = 119;
+                dateY = centerY-80-(Gfx.getFontHeight(fontSmall)>>1);
                 batteryY = centerY+38;
             }
         } else {
@@ -282,7 +286,8 @@ class lateView extends Ui.WatchFace {
                 }
             }
             drawBatteryLevel(dc);
-            drawMinuteArc(dc);
+            //drawMinuteArc(dc);
+            drawSecondArc(cd);
         }
         
         if (0>redrawAll) { redrawAll--; }
@@ -295,6 +300,51 @@ class lateView extends Ui.WatchFace {
             return number.toString();
         }
     }
+
+	function drawSecondArc (dc){
+		var seconds = clockTime.sec; 
+        var angle =  seconds/60.0*2*Math.PI;
+        var cos = Math.cos(angle);
+        var sin = Math.sin(angle);
+        var offset=0;
+        var gap=0;
+
+        dc.setColor(Gfx.COLOR_WHITE, 0);
+        //dc.drawText(centerX + (radius * sin), centerY - (radius * cos) , fontMinutes, minutes /*clockTime.min.format("%0.1d")*/, CENTER);
+
+        if(minutes>0){
+            dc.setColor(color, 0);
+            dc.setPenWidth(circleWidth);
+            
+            if(minutes>=10){
+                if(minutes>=52){
+                    offset=12;
+                    if(minutes==59){
+                        gap=4;    
+                    } 
+                } else {
+                    if(minutes>=12&&minutes<=22){
+                        offset=9;
+                    }
+                    else {
+                        offset=10;
+                    }
+                }
+            } else {
+                if(minutes>=7){
+                    offset=8;
+                } else {
+                    if(minutes==1){
+                        offset=4;
+                    } else {
+                        offset=6;
+                    }
+                }
+
+            }
+            dc.drawArc(centerX, centerY, secradius, Gfx.ARC_CLOCKWISE, 90-gap, 90-minutes*6+offset);
+        }
+	}
 
     function drawMinuteArc (dc){
         var minutes = clockTime.min; 
