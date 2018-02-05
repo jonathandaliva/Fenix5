@@ -1,0 +1,10 @@
+<properties>
+    <property id="color" type="number">0xFFAA00</property>
+    <property id="dateForm" type="number">0</property>
+    <property id="activity" type="number">0</property>
+    <property id="sunriset" type="boolean">false</property>
+    <property id="bat" type="number">5</property>
+    <property id="dialSize" type="number">0</property>
+    <property id="boldness" type="number">3</property>
+
+</properties>

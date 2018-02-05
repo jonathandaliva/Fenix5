@@ -1,0 +1,1 @@
+monkeyc -r -e -o bin/late.iq -y ../developer_key.der -z resources/drawables/drawables.xml:resources/fonts/fonts.xml:resources/strings/strings.xml:resources-spa/strings/strings.xml:resources/settings/settings.xml:resources/settings/properties.xml -m manifest.xml source/*.mc 
