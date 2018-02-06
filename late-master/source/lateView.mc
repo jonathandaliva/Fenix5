@@ -334,7 +334,9 @@ class lateView extends Ui.WatchFace {
             drawBatteryLevel(dc);
             //drawMinuteArc(dc);
             if(active){
-            	drawSecondArc(dc);
+            	drawSecondArc(dc, clockTime.sec);
+            } else {
+            	drawSecondArc(dc, 0);
             }
         }
         
@@ -349,8 +351,8 @@ class lateView extends Ui.WatchFace {
         }
     }
 
-	function drawSecondArc (dc){
-		var seconds = clockTime.sec; 
+	function drawSecondArc (dc, seconds){
+		
         var angle =  seconds/60.0*2*Math.PI;
         var cos = Math.cos(angle);
         var sin = Math.sin(angle);
