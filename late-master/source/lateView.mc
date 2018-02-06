@@ -28,6 +28,8 @@ class lateView extends Ui.WatchFace {
     hidden var showSunrise = false;
     hidden var utcOffset;
 
+	hidden var active;
+	
     hidden var clockTime;
     hidden var day = -1;
     // sunrise/sunset
@@ -71,7 +73,19 @@ class lateView extends Ui.WatchFace {
         //sunrise/sunset stuff
         clockTime = Sys.getClockTime();
     }
+    
+    function onExitSleep() {
+    	active=true;
+    	Ui.requestUpdate();
+    	redrawAll = 2;
+    }
 
+    function onEnterSleep() {
+    	active=false;
+    	Ui.requestUpdate();
+    	redrawAll =0;
+    }
+    
     //! Load your resources here
     // F5: 240px > F3: 218px > Epix: 148px 
     function onLayout (dc) {
@@ -143,7 +157,7 @@ class lateView extends Ui.WatchFace {
         color = App.getApp().getProperty("color");
         dateForm = App.getApp().getProperty("dateForm");
         activity = App.getApp().getProperty("activity");
-        activity = 2;  /* %REM REMOVE ---------------- TEST -----------------*/
+        //activity = 2;  /* %REM REMOVE ---------------- TEST -----------------*/
         showSunrise = App.getApp().getProperty("sunriset");
         batThreshold = App.getApp().getProperty("bat");
         circleWidth = App.getApp().getProperty("boldness");
@@ -197,14 +211,14 @@ class lateView extends Ui.WatchFace {
     }
     
     //! The user has just looked at their watch. Timers and animations may be started here.
-    function onExitSleep(){
-        redrawAll = 2;
-    }
+    //function onExitSleep(){
+    //    redrawAll = 2;
+    //}
 
     //! Terminate any active timers and prepare for slow updates.
-    function onEnterSleep(){
-        redrawAll =0;
-    }
+    //function onEnterSleep(){
+    //    redrawAll =0;
+    //}
 
     /*function openTheMenu(){
         menu = new MainMenu(self);
@@ -274,7 +288,7 @@ class lateView extends Ui.WatchFace {
 				dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_BLACK);
 				var TempH=Toybox.SensorHistory.getTemperatureHistory({});
 				var TempS=TempH.next();
-				dc.drawText(centerX+105, centerY - 20, fontSmall, Lang.format("$1$ �",[TempS.data.toNumber().toString()]), Gfx.TEXT_JUSTIFY_CENTER);
+				dc.drawText(centerX+103, centerY - 20, Gfx.FONT_SYSTEM_TINY, Lang.format("$1$°",[TempS.data.toNumber().toString()]), Gfx.TEXT_JUSTIFY_CENTER);
 				
 			}
 			
@@ -319,7 +333,7 @@ class lateView extends Ui.WatchFace {
             }
             drawBatteryLevel(dc);
             //drawMinuteArc(dc);
-            if(activity > 0){
+            if(active){
             	drawSecondArc(dc);
             }
         }
