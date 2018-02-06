@@ -76,14 +76,14 @@ class lateView extends Ui.WatchFace {
     
     function onExitSleep() {
     	active=true;
-    	Ui.requestUpdate();
     	redrawAll = 2;
+    	Ui.requestUpdate();
     }
 
     function onEnterSleep() {
     	active=false;
-    	Ui.requestUpdate();
     	redrawAll =0;
+    	Ui.requestUpdate();
     }
     
     //! Load your resources here
