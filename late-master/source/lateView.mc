@@ -333,11 +333,12 @@ class lateView extends Ui.WatchFace {
             }
             drawBatteryLevel(dc);
             //drawMinuteArc(dc);
-            if(active){
-            	drawSecondArc(dc, clockTime.sec);
-            } else {
-            	drawSecondArc(dc, 0);
-            }
+        }
+        
+        if(active){
+            drawSecondArc(dc, clockTime.sec);
+        } else {
+            drawSecondArc(dc, 0);
         }
         
         if (0>redrawAll) { redrawAll--; }

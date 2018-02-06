@@ -1,475 +1,475 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="5" pc="268435456" symbol="drawCircle1"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="7" pc="268435468" symbol="drawCircle1"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="8" pc="268435475" symbol="drawCircle1"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="9" pc="268435505" symbol="drawCircle1"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="11" pc="268435523" symbol="drawCircle1"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="12" pc="268435556" symbol="drawCircle1"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="14" pc="268435563" symbol="drawCircle1"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="16" pc="268435577" symbol="drawCircle1"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="17" pc="268435603" symbol="drawCircle1"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="19" pc="268435632" symbol="drawCircle1"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="21" pc="268435646" symbol="drawCircle1"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="22" pc="268435672" symbol="drawCircle1"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="26" pc="268435701" symbol="drawCircle1"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="27" pc="268435720" symbol="drawCircle1"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="30" pc="268435739" symbol="drawCircle1"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="37" pc="268435757" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="39" pc="268435769" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="41" pc="268435794" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="42" pc="268435813" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="43" pc="268435832" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="44" pc="268435851" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="45" pc="268435870" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="46" pc="268435892" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="47" pc="268435914" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="48" pc="268435936" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="50" pc="268435958" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="51" pc="268435968" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="52" pc="268435975" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="53" pc="268435985" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="54" pc="268435992" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="55" pc="268436008" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="57" pc="268436023" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="58" pc="268436033" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="60" pc="268436040" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="62" pc="268436048" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="63" pc="268436058" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="64" pc="268436068" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="67" pc="268436078" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="68" pc="268436100" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="70" pc="268436122" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="71" pc="268436144" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="73" pc="268436166" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="74" pc="268436188" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="76" pc="268436210" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="77" pc="268436232" symbol="drawCircle2"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="84" pc="268436268" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="86" pc="268436280" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="87" pc="268436299" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="88" pc="268436318" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="89" pc="268436337" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="91" pc="268436356" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="92" pc="268436360" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="93" pc="268436367" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="94" pc="268436374" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="96" pc="268436382" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="97" pc="268436392" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="98" pc="268436402" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="99" pc="268436412" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="99" pc="268436423" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="99" pc="268436433" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="101" pc="268436443" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="102" pc="268436465" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="103" pc="268436487" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="104" pc="268436509" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="105" pc="268436531" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="106" pc="268436553" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="107" pc="268436575" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="108" pc="268436597" symbol="drawCircle0"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="115" pc="268436623" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="117" pc="268436635" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="118" pc="268436651" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="119" pc="268436658" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="120" pc="268436674" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="121" pc="268436681" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="122" pc="268436685" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="124" pc="268436693" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="125" pc="268436715" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="126" pc="268436737" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="127" pc="268436759" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="128" pc="268436781" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="129" pc="268436803" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="130" pc="268436825" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="131" pc="268436847" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="132" pc="268436869" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="134" pc="268436880" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="135" pc="268436887" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="139" pc="268436900" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="140" pc="268436910" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="141" pc="268436917" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="143" pc="268436927" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="144" pc="268436937" symbol="drawCircle4"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="148" pc="268436951" symbol="drawFilledCircle"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="150" pc="268436963" symbol="drawFilledCircle"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="151" pc="268436970" symbol="drawFilledCircle"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="153" pc="268436988" symbol="drawFilledCircle"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="154" pc="268437021" symbol="drawFilledCircle"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="156" pc="268437028" symbol="drawFilledCircle"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="66" pc="268437068" symbol="initialize"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="67" pc="268437072" symbol="initialize"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="68" pc="268437089" symbol="initialize"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="69" pc="268437107" symbol="initialize"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="70" pc="268437124" symbol="initialize"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="71" pc="268437140" symbol="initialize"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="72" pc="268437163" symbol="initialize"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="74" pc="268437186" symbol="initialize"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="77" pc="268437210" symbol="onExitSleep"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="78" pc="268437214" symbol="onExitSleep"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="79" pc="268437224" symbol="onExitSleep"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="80" pc="268437237" symbol="onExitSleep"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="83" pc="268437254" symbol="onEnterSleep"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="84" pc="268437258" symbol="onEnterSleep"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="85" pc="268437268" symbol="onEnterSleep"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="86" pc="268437281" symbol="onEnterSleep"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="91" pc="268437298" symbol="onLayout"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="93" pc="268437302" symbol="onLayout"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="96" pc="268437315" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="97" pc="268437319" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="98" pc="268437336" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="99" pc="268437353" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="100" pc="268437396" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="102" pc="268437510" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="103" pc="268437527" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="104" pc="268437570" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="105" pc="268437613" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="106" pc="268437656" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="107" pc="268437669" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="108" pc="268437746" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="109" pc="268437768" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="110" pc="268437796" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="114" pc="268437852" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="115" pc="268437895" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="116" pc="268437938" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="118" pc="268437981" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="120" pc="268437994" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="122" pc="268438007" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="123" pc="268438060" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="126" pc="268438085" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="127" pc="268438102" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="128" pc="268438145" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="130" pc="268438259" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="131" pc="268438276" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="132" pc="268438319" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="133" pc="268438362" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="134" pc="268438405" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="135" pc="268438418" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="136" pc="268438495" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="137" pc="268438517" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="138" pc="268438539" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="140" pc="268438595" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="141" pc="268438638" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="142" pc="268438681" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="143" pc="268438724" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="144" pc="268438737" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="145" pc="268438790" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="149" pc="268438812" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="150" pc="268438877" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="151" pc="268438897" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="153" pc="268438920" symbol="setLayoutVars"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="156" pc="268438934" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="157" pc="268438938" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="158" pc="268438975" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="159" pc="268439012" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="161" pc="268439049" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="162" pc="268439086" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="163" pc="268439123" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="164" pc="268439160" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="174" pc="268439197" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="175" pc="268439208" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="176" pc="268439251" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="177" pc="268439294" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="178" pc="268439337" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="179" pc="268439380" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="180" pc="268439403" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="181" pc="268439425" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="185" pc="268439440" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="186" pc="268439457" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="187" pc="268439470" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="187" pc="268439487" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="188" pc="268439533" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="188" pc="268439550" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="189" pc="268439596" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="190" pc="268439643" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="191" pc="268439659" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="191" pc="268439676" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="192" pc="268439722" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="192" pc="268439739" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="194" pc="268439788" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="198" pc="268439801" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="199" pc="268439814" symbol="loadSettings"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="204" pc="268439827" symbol="onShow"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="205" pc="268439831" symbol="onShow"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="209" pc="268439845" symbol="onHide"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="210" pc="268439849" symbol="onHide"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="229" pc="268439863" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="230" pc="268439867" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="232" pc="268439890" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="232" pc="268439916" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="234" pc="268439932" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="235" pc="268439949" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="236" pc="268439971" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="237" pc="268439983" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="238" pc="268440005" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="239" pc="268440049" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="241" pc="268440065" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="242" pc="268440076" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="243" pc="268440125" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="245" pc="268440140" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="247" pc="268440154" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="254" pc="268440198" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="255" pc="268440220" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="256" pc="268440237" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="258" pc="268440253" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="264" pc="268440343" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="265" pc="268440350" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="266" pc="268440377" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="266" pc="268440388" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="266" pc="268440398" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="267" pc="268440408" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="267" pc="268440419" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="267" pc="268440426" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="271" pc="268440439" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="272" pc="268440475" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="273" pc="268440486" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="275" pc="268440586" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="277" pc="268440683" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="278" pc="268440786" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="281" pc="268440875" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="282" pc="268440901" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="283" pc="268440914" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="287" pc="268440988" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="288" pc="268441031" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="289" pc="268441067" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="290" pc="268441098" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="291" pc="268441111" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="300" pc="268441238" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="303" pc="268441255" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="304" pc="268441287" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="305" pc="268441294" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="306" pc="268441319" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="307" pc="268441352" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="308" pc="268441371" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="321" pc="268441421" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="322" pc="268441438" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="323" pc="268441457" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="323" pc="268441474" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="324" pc="268441498" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="324" pc="268441515" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="325" pc="268441539" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="325" pc="268441556" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="326" pc="268441584" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="326" pc="268441601" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="327" pc="268441631" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="327" pc="268441648" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="328" pc="268441670" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="329" pc="268441677" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="330" pc="268441709" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="331" pc="268441784" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="334" pc="268441892" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="336" pc="268441906" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="337" pc="268441917" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="339" pc="268441948" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="343" pc="268441970" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="343" pc="268441987" symbol="onUpdate"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="346" pc="268442010" symbol="humanizeNumber"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="347" pc="268442014" symbol="humanizeNumber"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="348" pc="268442025" symbol="humanizeNumber"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="350" pc="268442066" symbol="humanizeNumber"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="354" pc="268442079" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="356" pc="268442083" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="357" pc="268442112" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="358" pc="268442131" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="359" pc="268442150" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="360" pc="268442157" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="362" pc="268442164" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="364" pc="268442193" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="366" pc="268442204" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="368" pc="268442224" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="369" pc="268442235" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="370" pc="268442246" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="371" pc="268442253" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="372" pc="268442264" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="375" pc="268442277" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="376" pc="268442302" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="379" pc="268442312" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="383" pc="268442322" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="384" pc="268442333" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="386" pc="268442343" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="387" pc="268442354" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="389" pc="268442364" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="394" pc="268442371" symbol="drawSecondArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="398" pc="268442448" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="399" pc="268442452" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="400" pc="268442468" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="401" pc="268442497" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="402" pc="268442516" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="403" pc="268442535" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="404" pc="268442542" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="406" pc="268442549" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="407" pc="268442578" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="409" pc="268442648" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="410" pc="268442659" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="411" pc="268442684" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="425" pc="268442704" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="426" pc="268442715" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="427" pc="268442726" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="428" pc="268442733" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="429" pc="268442744" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="432" pc="268442757" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="433" pc="268442782" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="436" pc="268442792" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="440" pc="268442802" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="441" pc="268442813" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="443" pc="268442823" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="444" pc="268442834" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="446" pc="268442844" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="451" pc="268442851" symbol="drawMinuteArc"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="456" pc="268442928" symbol="drawBatteryLevel"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="457" pc="268442932" symbol="drawBatteryLevel"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="458" pc="268442979" symbol="drawBatteryLevel"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="459" pc="268442995" symbol="drawBatteryLevel"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="460" pc="268443011" symbol="drawBatteryLevel"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="461" pc="268443047" symbol="drawBatteryLevel"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="497" pc="268443098" symbol="drawSunBitmaps"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="498" pc="268443102" symbol="drawSunBitmaps"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="500" pc="268443124" symbol="drawSunBitmaps"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="501" pc="268443215" symbol="drawSunBitmaps"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="502" pc="268443238" symbol="drawSunBitmaps"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="503" pc="268443254" symbol="drawSunBitmaps"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="506" pc="268443382" symbol="drawSunBitmaps"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="507" pc="268443473" symbol="drawSunBitmaps"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="508" pc="268443496" symbol="drawSunBitmaps"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="520" pc="268443628" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="521" pc="268443632" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="522" pc="268443655" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="523" pc="268443662" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="524" pc="268443693" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="525" pc="268443700" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="526" pc="268443718" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="531" pc="268443725" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="532" pc="268443738" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="535" pc="268443770" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="536" pc="268443795" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="540" pc="268443820" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="541" pc="268443842" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="543" pc="268443929" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="544" pc="268443945" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="546" pc="268443982" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="547" pc="268444030" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="550" pc="268444078" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="551" pc="268444078" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="552" pc="268444095" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="555" pc="268444129" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="558" pc="268444160" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="559" pc="268444208" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="562" pc="268444256" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="563" pc="268444307" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="564" pc="268444328" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="565" pc="268444347" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="569" pc="268444379" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="570" pc="268444426" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="571" pc="268444458" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="573" pc="268444489" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="574" pc="268444521" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateView.mc" lineNum="587" pc="268444565" symbol="computeSun"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="5" pc="268444567" symbol="floor"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="7" pc="268444579" symbol="floor"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="9" pc="268444605" symbol="floor"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="11" pc="268444620" symbol="floor"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="14" pc="268444627" symbol="ceil"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="16" pc="268444639" symbol="ceil"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="17" pc="268444649" symbol="ceil"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="19" pc="268444675" symbol="ceil"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="21" pc="268444690" symbol="ceil"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="25" pc="268444697" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="27" pc="268444709" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="28" pc="268444744" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="29" pc="268444786" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="30" pc="268444794" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="33" pc="268444958" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="36" pc="268444962" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="36" pc="268444979" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="37" pc="268444986" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="40" pc="268444990" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="40" pc="268445013" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="41" pc="268445020" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="44" pc="268445024" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="47" pc="268445040" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="47" pc="268445059" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="50" pc="268445072" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="51" pc="268445088" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="52" pc="268445101" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="53" pc="268445114" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="56" pc="268445151" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="57" pc="268445164" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="60" pc="268445186" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="62" pc="268445214" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="64" pc="268445224" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="64" pc="268445257" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="65" pc="268445267" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="69" pc="268445277" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="71" pc="268445285" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="71" pc="268445290" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="72" pc="268445300" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="74" pc="268445307" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="76" pc="268445324" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="77" pc="268445334" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="82" pc="268445347" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="84" pc="268445355" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="85" pc="268445377" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="87" pc="268445387" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="87" pc="268445398" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\cgTools.mc" lineNum="90" pc="268445414" symbol="getWeekNbr"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="29" pc="268445418" symbol="computeDayNumber"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="32" pc="268445430" symbol="computeDayNumber"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="33" pc="268445446" symbol="computeDayNumber"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="34" pc="268445459" symbol="computeDayNumber"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="38" pc="268445526" symbol="dayOfYear"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="40" pc="268445538" symbol="dayOfYear"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="41" pc="268445557" symbol="dayOfYear"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="42" pc="268445582" symbol="dayOfYear"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="46" pc="268445589" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="48" pc="268445601" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="49" pc="268445608" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="50" pc="268445615" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="53" pc="268445622" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="54" pc="268445632" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="55" pc="268445632" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="57" pc="268445637" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="61" pc="268445659" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="65" pc="268445678" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="68" pc="268445694" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="69" pc="268445764" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="71" pc="268445775" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="73" pc="268445788" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="75" pc="268445799" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="79" pc="268445812" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="80" pc="268445858" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="82" pc="268445869" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="84" pc="268445882" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="86" pc="268445893" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="90" pc="268445906" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="91" pc="268445933" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="92" pc="268445960" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="95" pc="268445970" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="98" pc="268445980" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="99" pc="268446008" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="102" pc="268446042" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="103" pc="268446112" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="104" pc="268446112" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="106" pc="268446117" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="110" pc="268446148" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="112" pc="268446170" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="115" pc="268446180" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="118" pc="268446202" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="119" pc="268446209" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="121" pc="268446220" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="123" pc="268446233" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="125" pc="268446244" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="128" pc="268446257" symbol="computeSunriset"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateApp.mc" lineNum="7" pc="268446261" symbol="initialize"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateApp.mc" lineNum="8" pc="268446265" symbol="initialize"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateApp.mc" lineNum="11" pc="268446284" symbol="onStart"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateApp.mc" lineNum="13" pc="268446289" symbol="onStop"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateApp.mc" lineNum="15" pc="268446294" symbol="onSettingsChanged"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateApp.mc" lineNum="16" pc="268446298" symbol="onSettingsChanged"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateApp.mc" lineNum="17" pc="268446316" symbol="onSettingsChanged"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateApp.mc" lineNum="20" pc="268446333" symbol="getInitialView"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateApp.mc" lineNum="21" pc="268446337" symbol="getInitialView"/>
-<entry filename="C:\\Users\\jtorres\\git\\Fenix5\\late-master\\.\\source\\lateApp.mc" lineNum="22" pc="268446367" symbol="getInitialView"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="5" pc="268435456" symbol="floor"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="7" pc="268435468" symbol="floor"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="9" pc="268435494" symbol="floor"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="11" pc="268435509" symbol="floor"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="14" pc="268435516" symbol="ceil"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="16" pc="268435528" symbol="ceil"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="17" pc="268435538" symbol="ceil"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="19" pc="268435564" symbol="ceil"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="21" pc="268435579" symbol="ceil"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="25" pc="268435586" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="27" pc="268435598" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="28" pc="268435633" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="29" pc="268435675" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="30" pc="268435683" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="33" pc="268435847" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="36" pc="268435851" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="36" pc="268435868" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="37" pc="268435875" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="40" pc="268435879" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="40" pc="268435902" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="41" pc="268435909" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="44" pc="268435913" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="47" pc="268435929" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="47" pc="268435948" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="50" pc="268435961" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="51" pc="268435977" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="52" pc="268435990" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="53" pc="268436003" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="56" pc="268436040" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="57" pc="268436053" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="60" pc="268436075" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="62" pc="268436103" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="64" pc="268436113" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="64" pc="268436146" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="65" pc="268436156" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="69" pc="268436166" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="71" pc="268436174" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="71" pc="268436179" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="72" pc="268436189" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="74" pc="268436196" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="76" pc="268436213" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="77" pc="268436223" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="82" pc="268436236" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="84" pc="268436244" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="85" pc="268436266" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="87" pc="268436276" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="87" pc="268436287" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgTools.mc" lineNum="90" pc="268436303" symbol="getWeekNbr"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="29" pc="268436307" symbol="computeDayNumber"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="32" pc="268436319" symbol="computeDayNumber"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="33" pc="268436335" symbol="computeDayNumber"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="34" pc="268436348" symbol="computeDayNumber"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="38" pc="268436415" symbol="dayOfYear"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="40" pc="268436427" symbol="dayOfYear"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="41" pc="268436446" symbol="dayOfYear"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="42" pc="268436471" symbol="dayOfYear"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="46" pc="268436478" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="48" pc="268436490" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="49" pc="268436497" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="50" pc="268436504" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="53" pc="268436511" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="54" pc="268436521" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="55" pc="268436521" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="57" pc="268436526" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="61" pc="268436548" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="65" pc="268436567" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="68" pc="268436583" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="69" pc="268436653" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="71" pc="268436664" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="73" pc="268436677" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="75" pc="268436688" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="79" pc="268436701" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="80" pc="268436747" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="82" pc="268436758" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="84" pc="268436771" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="86" pc="268436782" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="90" pc="268436795" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="91" pc="268436822" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="92" pc="268436849" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="95" pc="268436859" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="98" pc="268436869" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="99" pc="268436897" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="102" pc="268436931" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="103" pc="268437001" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="104" pc="268437001" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="106" pc="268437006" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="110" pc="268437037" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="112" pc="268437059" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="115" pc="268437069" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="118" pc="268437091" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="119" pc="268437098" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="121" pc="268437109" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="123" pc="268437122" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="125" pc="268437133" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\sunrisetCompute.mc" lineNum="128" pc="268437146" symbol="computeSunriset"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="5" pc="268437150" symbol="drawCircle1"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="7" pc="268437162" symbol="drawCircle1"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="8" pc="268437169" symbol="drawCircle1"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="9" pc="268437199" symbol="drawCircle1"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="11" pc="268437217" symbol="drawCircle1"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="12" pc="268437250" symbol="drawCircle1"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="14" pc="268437257" symbol="drawCircle1"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="16" pc="268437271" symbol="drawCircle1"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="17" pc="268437297" symbol="drawCircle1"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="19" pc="268437326" symbol="drawCircle1"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="21" pc="268437340" symbol="drawCircle1"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="22" pc="268437366" symbol="drawCircle1"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="26" pc="268437395" symbol="drawCircle1"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="27" pc="268437414" symbol="drawCircle1"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="30" pc="268437433" symbol="drawCircle1"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="37" pc="268437451" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="39" pc="268437463" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="41" pc="268437488" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="42" pc="268437507" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="43" pc="268437526" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="44" pc="268437545" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="45" pc="268437564" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="46" pc="268437586" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="47" pc="268437608" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="48" pc="268437630" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="50" pc="268437652" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="51" pc="268437662" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="52" pc="268437669" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="53" pc="268437679" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="54" pc="268437686" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="55" pc="268437702" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="57" pc="268437717" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="58" pc="268437727" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="60" pc="268437734" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="62" pc="268437742" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="63" pc="268437752" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="64" pc="268437762" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="67" pc="268437772" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="68" pc="268437794" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="70" pc="268437816" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="71" pc="268437838" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="73" pc="268437860" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="74" pc="268437882" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="76" pc="268437904" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="77" pc="268437926" symbol="drawCircle2"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="84" pc="268437962" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="86" pc="268437974" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="87" pc="268437993" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="88" pc="268438012" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="89" pc="268438031" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="91" pc="268438050" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="92" pc="268438054" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="93" pc="268438061" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="94" pc="268438068" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="96" pc="268438076" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="97" pc="268438086" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="98" pc="268438096" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="99" pc="268438106" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="99" pc="268438117" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="99" pc="268438127" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="101" pc="268438137" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="102" pc="268438159" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="103" pc="268438181" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="104" pc="268438203" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="105" pc="268438225" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="106" pc="268438247" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="107" pc="268438269" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="108" pc="268438291" symbol="drawCircle0"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="115" pc="268438317" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="117" pc="268438329" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="118" pc="268438345" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="119" pc="268438352" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="120" pc="268438368" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="121" pc="268438375" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="122" pc="268438379" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="124" pc="268438387" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="125" pc="268438409" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="126" pc="268438431" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="127" pc="268438453" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="128" pc="268438475" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="129" pc="268438497" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="130" pc="268438519" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="131" pc="268438541" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="132" pc="268438563" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="134" pc="268438574" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="135" pc="268438581" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="139" pc="268438594" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="140" pc="268438604" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="141" pc="268438611" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="143" pc="268438621" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="144" pc="268438631" symbol="drawCircle4"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="148" pc="268438645" symbol="drawFilledCircle"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="150" pc="268438657" symbol="drawFilledCircle"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="151" pc="268438664" symbol="drawFilledCircle"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="153" pc="268438682" symbol="drawFilledCircle"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="154" pc="268438715" symbol="drawFilledCircle"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\cgDrawPrim.mc" lineNum="156" pc="268438722" symbol="drawFilledCircle"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateApp.mc" lineNum="7" pc="268438762" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateApp.mc" lineNum="8" pc="268438766" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateApp.mc" lineNum="11" pc="268438785" symbol="onStart"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateApp.mc" lineNum="13" pc="268438790" symbol="onStop"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateApp.mc" lineNum="15" pc="268438795" symbol="onSettingsChanged"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateApp.mc" lineNum="16" pc="268438799" symbol="onSettingsChanged"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateApp.mc" lineNum="17" pc="268438817" symbol="onSettingsChanged"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateApp.mc" lineNum="20" pc="268438834" symbol="getInitialView"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateApp.mc" lineNum="21" pc="268438838" symbol="getInitialView"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateApp.mc" lineNum="22" pc="268438868" symbol="getInitialView"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="66" pc="268438892" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="67" pc="268438896" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="68" pc="268438913" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="69" pc="268438931" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="70" pc="268438948" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="71" pc="268438964" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="72" pc="268438987" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="74" pc="268439010" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="77" pc="268439034" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="78" pc="268439038" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="79" pc="268439048" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="80" pc="268439061" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="83" pc="268439078" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="84" pc="268439082" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="85" pc="268439092" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="86" pc="268439105" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="91" pc="268439122" symbol="onLayout"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="93" pc="268439126" symbol="onLayout"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="96" pc="268439139" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="97" pc="268439143" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="98" pc="268439160" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="99" pc="268439177" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="100" pc="268439220" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="102" pc="268439334" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="103" pc="268439351" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="104" pc="268439394" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="105" pc="268439437" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="106" pc="268439480" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="107" pc="268439493" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="108" pc="268439570" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="109" pc="268439592" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="110" pc="268439620" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="114" pc="268439676" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="115" pc="268439719" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="116" pc="268439762" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="118" pc="268439805" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="120" pc="268439818" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="122" pc="268439831" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="123" pc="268439884" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="126" pc="268439909" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="127" pc="268439926" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="128" pc="268439969" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="130" pc="268440083" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="131" pc="268440100" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="132" pc="268440143" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="133" pc="268440186" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="134" pc="268440229" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="135" pc="268440242" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="136" pc="268440319" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="137" pc="268440341" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="138" pc="268440363" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="140" pc="268440419" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="141" pc="268440462" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="142" pc="268440505" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="143" pc="268440548" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="144" pc="268440561" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="145" pc="268440614" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="149" pc="268440636" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="150" pc="268440701" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="151" pc="268440721" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="153" pc="268440744" symbol="setLayoutVars"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="156" pc="268440758" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="157" pc="268440762" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="158" pc="268440799" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="159" pc="268440836" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="161" pc="268440873" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="162" pc="268440910" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="163" pc="268440947" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="164" pc="268440984" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="174" pc="268441021" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="175" pc="268441032" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="176" pc="268441075" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="177" pc="268441118" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="178" pc="268441161" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="179" pc="268441204" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="180" pc="268441227" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="181" pc="268441249" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="185" pc="268441264" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="186" pc="268441281" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="187" pc="268441294" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="187" pc="268441311" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="188" pc="268441357" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="188" pc="268441374" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="189" pc="268441420" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="190" pc="268441467" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="191" pc="268441483" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="191" pc="268441500" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="192" pc="268441546" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="192" pc="268441563" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="194" pc="268441612" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="198" pc="268441625" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="199" pc="268441638" symbol="loadSettings"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="204" pc="268441651" symbol="onShow"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="205" pc="268441655" symbol="onShow"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="209" pc="268441669" symbol="onHide"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="210" pc="268441673" symbol="onHide"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="229" pc="268441687" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="230" pc="268441691" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="232" pc="268441714" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="232" pc="268441740" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="234" pc="268441756" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="235" pc="268441773" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="236" pc="268441795" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="237" pc="268441807" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="238" pc="268441829" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="239" pc="268441873" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="241" pc="268441889" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="242" pc="268441900" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="243" pc="268441949" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="245" pc="268441964" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="247" pc="268441978" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="254" pc="268442022" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="255" pc="268442044" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="256" pc="268442061" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="258" pc="268442077" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="264" pc="268442167" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="265" pc="268442174" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="266" pc="268442201" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="266" pc="268442212" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="266" pc="268442222" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="267" pc="268442232" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="267" pc="268442243" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="267" pc="268442250" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="271" pc="268442263" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="272" pc="268442299" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="273" pc="268442310" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="275" pc="268442410" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="277" pc="268442507" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="278" pc="268442610" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="281" pc="268442699" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="282" pc="268442725" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="283" pc="268442738" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="287" pc="268442812" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="288" pc="268442855" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="289" pc="268442891" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="290" pc="268442922" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="291" pc="268442935" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="300" pc="268443062" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="303" pc="268443079" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="304" pc="268443111" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="305" pc="268443118" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="306" pc="268443143" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="307" pc="268443176" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="308" pc="268443195" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="321" pc="268443245" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="322" pc="268443262" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="323" pc="268443281" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="323" pc="268443298" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="324" pc="268443322" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="324" pc="268443339" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="325" pc="268443363" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="325" pc="268443380" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="326" pc="268443408" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="326" pc="268443425" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="327" pc="268443455" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="327" pc="268443472" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="328" pc="268443494" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="329" pc="268443501" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="330" pc="268443533" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="331" pc="268443608" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="334" pc="268443716" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="338" pc="268443733" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="339" pc="268443744" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="341" pc="268443775" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="344" pc="268443794" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="344" pc="268443811" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="347" pc="268443834" symbol="humanizeNumber"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="348" pc="268443838" symbol="humanizeNumber"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="349" pc="268443849" symbol="humanizeNumber"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="351" pc="268443890" symbol="humanizeNumber"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="355" pc="268443903" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="357" pc="268443907" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="358" pc="268443936" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="359" pc="268443955" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="360" pc="268443974" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="361" pc="268443981" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="363" pc="268443988" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="365" pc="268444017" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="367" pc="268444028" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="369" pc="268444048" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="370" pc="268444059" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="371" pc="268444070" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="372" pc="268444077" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="373" pc="268444088" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="376" pc="268444101" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="377" pc="268444126" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="380" pc="268444136" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="384" pc="268444146" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="385" pc="268444157" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="387" pc="268444167" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="388" pc="268444178" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="390" pc="268444188" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="395" pc="268444195" symbol="drawSecondArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="399" pc="268444272" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="400" pc="268444276" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="401" pc="268444292" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="402" pc="268444321" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="403" pc="268444340" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="404" pc="268444359" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="405" pc="268444366" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="407" pc="268444373" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="408" pc="268444402" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="410" pc="268444472" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="411" pc="268444483" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="412" pc="268444508" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="426" pc="268444528" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="427" pc="268444539" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="428" pc="268444550" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="429" pc="268444557" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="430" pc="268444568" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="433" pc="268444581" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="434" pc="268444606" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="437" pc="268444616" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="441" pc="268444626" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="442" pc="268444637" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="444" pc="268444647" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="445" pc="268444658" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="447" pc="268444668" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="452" pc="268444675" symbol="drawMinuteArc"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="457" pc="268444752" symbol="drawBatteryLevel"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="458" pc="268444756" symbol="drawBatteryLevel"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="459" pc="268444803" symbol="drawBatteryLevel"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="460" pc="268444819" symbol="drawBatteryLevel"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="461" pc="268444835" symbol="drawBatteryLevel"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="462" pc="268444871" symbol="drawBatteryLevel"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="498" pc="268444922" symbol="drawSunBitmaps"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="499" pc="268444926" symbol="drawSunBitmaps"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="501" pc="268444948" symbol="drawSunBitmaps"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="502" pc="268445039" symbol="drawSunBitmaps"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="503" pc="268445062" symbol="drawSunBitmaps"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="504" pc="268445078" symbol="drawSunBitmaps"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="507" pc="268445206" symbol="drawSunBitmaps"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="508" pc="268445297" symbol="drawSunBitmaps"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="509" pc="268445320" symbol="drawSunBitmaps"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="521" pc="268445452" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="522" pc="268445456" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="523" pc="268445479" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="524" pc="268445486" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="525" pc="268445517" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="526" pc="268445524" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="527" pc="268445542" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="532" pc="268445549" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="533" pc="268445562" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="536" pc="268445594" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="537" pc="268445619" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="541" pc="268445644" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="542" pc="268445666" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="544" pc="268445753" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="545" pc="268445769" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="547" pc="268445806" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="548" pc="268445854" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="551" pc="268445902" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="552" pc="268445902" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="553" pc="268445919" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="556" pc="268445953" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="559" pc="268445984" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="560" pc="268446032" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="563" pc="268446080" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="564" pc="268446131" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="565" pc="268446152" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="566" pc="268446171" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="570" pc="268446203" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="571" pc="268446250" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="572" pc="268446282" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="574" pc="268446313" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="575" pc="268446345" symbol="computeSun"/>
+<entry filename="C:\\Users\\James\\eclipse-workspace\\GitFenix5\\late-master\\.\\source\\lateView.mc" lineNum="588" pc="268446389" symbol="computeSun"/>
 <entry filename="Rez" lineNum="66" pc="268446391" symbol="initialize"/>
 <entry filename="Rez" lineNum="67" pc="268446395" symbol="initialize"/>
 <entry filename="Rez" lineNum="68" pc="268446413" symbol="initialize"/>
@@ -489,11 +489,11 @@
 <entry id="131" symbol="xFFAA00"/>
 <entry id="139" symbol="xFF00FF"/>
 <entry field="true" id="30" symbol="Cal"/>
-<entry id="12" method="true" symbol="drawCircle4"/>
-<entry id="10" method="true" symbol="drawCircle2"/>
-<entry id="9" method="true" symbol="drawCircle1"/>
+<entry id="16" method="true" symbol="drawCircle4"/>
+<entry id="14" method="true" symbol="drawCircle2"/>
+<entry id="13" method="true" symbol="drawCircle1"/>
 <entry id="8389781" module="true" symbol="SensorHistory"/>
-<entry id="11" method="true" symbol="drawCircle0"/>
+<entry id="15" method="true" symbol="drawCircle0"/>
 <entry field="true" id="8389870" symbol="activeMinutesDay"/>
 <entry field="true" id="65" symbol="ActiveMinutesDay"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
@@ -513,10 +513,10 @@
 <entry field="true" id="26" symbol="Moon"/>
 <entry id="134" symbol="x00AA00"/>
 <entry id="36" object="true" symbol="MainMenu"/>
-<entry field="true" id="15" symbol="SUNRISET_MAX"/>
+<entry field="true" id="20" symbol="SUNRISET_MAX"/>
 <entry field="true" id="80" symbol="ColorOrange"/>
 <entry id="132" symbol="xFF5500"/>
-<entry id="22" object="true" symbol="lateApp"/>
+<entry id="18" object="true" symbol="lateApp"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry field="true" id="69" symbol="ColorGreen"/>
 <entry field="true" id="115" symbol="secradius"/>
@@ -545,10 +545,10 @@
 <entry field="true" id="66" symbol="ColorPink"/>
 <entry id="129" method="true" symbol="drawSunBitmaps"/>
 <entry field="true" id="90" symbol="CENTER"/>
-<entry id="18" method="true" symbol="getWeekNbr"/>
+<entry id="9" method="true" symbol="getWeekNbr"/>
 <entry field="true" id="74" symbol="ActiveMinutesWeek"/>
 <entry field="true" id="60" symbol="ColorRed"/>
-<entry id="13" method="true" symbol="drawFilledCircle"/>
+<entry id="17" method="true" symbol="drawFilledCircle"/>
 <entry field="true" id="54" symbol="ColorTitle"/>
 <entry field="true" id="34" symbol="Bat"/>
 <entry field="true" id="37" symbol="Hours"/>
@@ -596,11 +596,11 @@
 <entry id="8389718" method="true" symbol="floor"/>
 <entry field="true" id="116" symbol="circleWidth"/>
 <entry field="true" id="8389347" symbol="color"/>
-<entry id="20" method="true" symbol="dayOfYear"/>
+<entry id="11" method="true" symbol="dayOfYear"/>
 <entry field="true" id="85" symbol="BellowHalf"/>
 <entry field="true" id="8388939" symbol="day"/>
 <entry field="true" id="8389067" symbol="height"/>
-<entry field="true" id="14" symbol="SUNRISET_NOW"/>
+<entry field="true" id="19" symbol="SUNRISET_NOW"/>
 <entry field="true" id="28" symbol="Sunset"/>
 <entry id="140" symbol="xFFFFFF"/>
 <entry field="true" id="50" symbol="Condensed240"/>
@@ -624,7 +624,7 @@
 <entry field="true" id="73" symbol="s1"/>
 <entry field="true" id="71" symbol="s0"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry field="true" id="16" symbol="SUNRISET_NBR"/>
+<entry field="true" id="21" symbol="SUNRISET_NBR"/>
 <entry field="true" id="43" symbol="MinuteBig"/>
 <entry field="true" id="88" symbol="DateFormDayOfWeek"/>
 <entry id="24" module="true" symbol="Menus"/>
@@ -633,17 +633,17 @@
 <entry id="8389800" method="true" symbol="getTemperatureHistory"/>
 <entry field="true" id="84" symbol="ColorGray"/>
 <entry id="8389717" method="true" symbol="ceil"/>
-<entry id="19" method="true" symbol="computeDayNumber"/>
+<entry id="10" method="true" symbol="computeDayNumber"/>
 <entry id="133" symbol="x00AAFF"/>
 <entry field="true" id="47" symbol="SmallBig"/>
 <entry field="true" id="53" symbol="ColorDarkRed"/>
 <entry field="true" id="117" symbol="dialSize"/>
-<entry id="17" object="true" symbol="lateView"/>
+<entry id="22" object="true" symbol="lateView"/>
 <entry field="true" id="82" symbol="DateFormTitle"/>
 <entry id="137" symbol="xAA0000"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry field="true" id="110" symbol="fontSmall"/>
-<entry id="21" method="true" symbol="computeSunriset"/>
+<entry id="12" method="true" symbol="computeSunriset"/>
 <entry id="128" method="true" symbol="drawBatteryLevel"/>
 <entry field="true" id="95" symbol="activity"/>
 <entry field="true" id="87" symbol="ColorPurple"/>
@@ -652,147 +652,180 @@
 <entry field="true" id="61" symbol="b3"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435743" name="cx" stackId="8" startPc="268435523"/>
-<entry endPc="268435743" name="cyy" stackId="9" startPc="268435523"/>
-<entry endPc="268435756" name="cy" stackId="7" startPc="268435523"/>
-<entry endPc="268435756" name="r2" stackId="5" startPc="268435468"/>
-<entry endPc="268435756" name="pcx" stackId="6" startPc="268435468"/>
-<entry endPc="268435757" name="x" stackId="1" startPc="268435456"/>
-<entry endPc="268435757" name="dc" stackId="4" startPc="268435456"/>
-<entry endPc="268435757" name="r" stackId="3" startPc="268435456"/>
-<entry endPc="268435757" name="y" stackId="2" startPc="268435456"/>
-<entry endPc="268436267" name="pos_x" stackId="11" startPc="268436023"/>
-<entry endPc="268436267" name="b" stackId="10" startPc="268435769"/>
-<entry endPc="268436267" name="ty" stackId="8" startPc="268435769"/>
-<entry endPc="268436267" name="a" stackId="9" startPc="268435769"/>
-<entry endPc="268436267" name="tx" stackId="7" startPc="268435769"/>
-<entry endPc="268436267" name="pos_y" stackId="6" startPc="268435769"/>
-<entry endPc="268436267" name="x1" stackId="5" startPc="268435769"/>
-<entry endPc="268436268" name="x" stackId="1" startPc="268435757"/>
-<entry endPc="268436268" name="dc" stackId="4" startPc="268435757"/>
-<entry endPc="268436268" name="r" stackId="3" startPc="268435757"/>
-<entry endPc="268436268" name="y" stackId="2" startPc="268435757"/>
-<entry endPc="268436622" name="x" stackId="5" startPc="268436280"/>
-<entry endPc="268436622" name="cd2" stackId="7" startPc="268436280"/>
-<entry endPc="268436622" name="y" stackId="6" startPc="268436280"/>
-<entry endPc="268436623" name="dc" stackId="4" startPc="268436268"/>
-<entry endPc="268436623" name="r" stackId="3" startPc="268436268"/>
-<entry endPc="268436623" name="xc" stackId="1" startPc="268436268"/>
-<entry endPc="268436623" name="yc" stackId="2" startPc="268436268"/>
-<entry endPc="268436950" name="x" stackId="8" startPc="268436635"/>
-<entry endPc="268436950" name="dB" stackId="7" startPc="268436635"/>
-<entry endPc="268436950" name="dA" stackId="6" startPc="268436635"/>
-<entry endPc="268436950" name="d" stackId="5" startPc="268436635"/>
-<entry endPc="268436950" name="y" stackId="9" startPc="268436635"/>
-<entry endPc="268436951" name="dc" stackId="4" startPc="268436623"/>
-<entry endPc="268436951" name="R" stackId="3" startPc="268436623"/>
-<entry endPc="268436951" name="xc" stackId="1" startPc="268436623"/>
-<entry endPc="268436951" name="yc" stackId="2" startPc="268436623"/>
-<entry endPc="268437054" name="cx" stackId="7" startPc="268436988"/>
-<entry endPc="268437054" name="cyy" stackId="8" startPc="268436988"/>
-<entry endPc="268437067" name="cy" stackId="6" startPc="268436988"/>
-<entry endPc="268437067" name="r2" stackId="5" startPc="268436963"/>
-<entry endPc="268437068" name="x" stackId="1" startPc="268436951"/>
-<entry endPc="268437068" name="dc" stackId="4" startPc="268436951"/>
-<entry endPc="268437068" name="r" stackId="3" startPc="268436951"/>
-<entry endPc="268437068" name="y" stackId="2" startPc="268436951"/>
-<entry endPc="268437209" name="time" stackId="1" startPc="268437072"/>
-<entry endPc="268437209" name="set" stackId="2" startPc="268437072"/>
-<entry endPc="268437315" name="dc" stackId="1" startPc="268437298"/>
-<entry endPc="268438933" name="langTest" stackId="1" startPc="268437319"/>
-<entry endPc="268440340" name="a" stackId="4" startPc="268440076"/>
-<entry endPc="268440340" name="r" stackId="5" startPc="268440076"/>
-<entry endPc="268441235" name="TempS" stackId="10" startPc="268441031"/>
-<entry endPc="268441235" name="TempH" stackId="9" startPc="268441031"/>
-<entry endPc="268441889" name="text" stackId="11" startPc="268441255"/>
-<entry endPc="268441967" name="HRS" stackId="8" startPc="268439949"/>
-<entry endPc="268441967" name="HRH" stackId="7" startPc="268439949"/>
-<entry endPc="268441967" name="ampm" stackId="6" startPc="268439949"/>
-<entry endPc="268441967" name="h" stackId="3" startPc="268439949"/>
-<entry endPc="268441967" name="info" stackId="2" startPc="268439949"/>
-<entry endPc="268442010" name="dc" stackId="1" startPc="268439863"/>
-<entry endPc="268442079" name="number" stackId="1" startPc="268442010"/>
-<entry endPc="268442447" name="sin" stackId="5" startPc="268442083"/>
-<entry endPc="268442447" name="cos" stackId="4" startPc="268442083"/>
-<entry endPc="268442447" name="offset" stackId="6" startPc="268442083"/>
-<entry endPc="268442447" name="angle" stackId="3" startPc="268442083"/>
-<entry endPc="268442447" name="gap" stackId="7" startPc="268442083"/>
-<entry endPc="268442448" name="dc" stackId="1" startPc="268442079"/>
-<entry endPc="268442448" name="seconds" stackId="2" startPc="268442079"/>
-<entry endPc="268442927" name="sin" stackId="5" startPc="268442452"/>
-<entry endPc="268442927" name="minutes" stackId="2" startPc="268442452"/>
-<entry endPc="268442927" name="cos" stackId="4" startPc="268442452"/>
-<entry endPc="268442927" name="offset" stackId="6" startPc="268442452"/>
-<entry endPc="268442927" name="angle" stackId="3" startPc="268442452"/>
-<entry endPc="268442927" name="gap" stackId="7" startPc="268442452"/>
-<entry endPc="268442928" name="dc" stackId="1" startPc="268442448"/>
-<entry endPc="268443097" name="bat" stackId="2" startPc="268442932"/>
-<entry endPc="268443097" name="yPos" stackId="4" startPc="268442932"/>
-<entry endPc="268443097" name="xPos" stackId="3" startPc="268442932"/>
-<entry endPc="268443098" name="dc" stackId="1" startPc="268442928"/>
-<entry endPc="268443624" name="a" stackId="2" startPc="268443124"/>
-<entry endPc="268443624" name="r" stackId="3" startPc="268443124"/>
-<entry endPc="268443628" name="dc" stackId="1" startPc="268443098"/>
-<entry endPc="268444379" name="i" stackId="6" startPc="268444328"/>
-<entry endPc="268444565" name="i" stackId="7" startPc="268444426"/>
-<entry endPc="268444566" name="max" stackId="4" startPc="268443632"/>
-<entry endPc="268444566" name="now" stackId="3" startPc="268443632"/>
-<entry endPc="268444566" name="offset" stackId="5" startPc="268443632"/>
-<entry endPc="268444566" name="timeInfo" stackId="2" startPc="268443632"/>
-<entry endPc="268444566" name="pos" stackId="1" startPc="268443632"/>
-<entry endPc="268444627" name="f" stackId="1" startPc="268444567"/>
-<entry endPc="268444696" name="f2" stackId="2" startPc="268444639"/>
-<entry endPc="268444697" name="f" stackId="1" startPc="268444627"/>
-<entry endPc="268445417" name="nYY" stackId="5" startPc="268444709"/>
-<entry endPc="268445417" name="nWeekNumber" stackId="12" startPc="268444709"/>
-<entry endPc="268445417" name="bIsPrevYear" stackId="16" startPc="268444709"/>
-<entry endPc="268445417" name="bIsLeapYear" stackId="15" startPc="268444709"/>
-<entry endPc="268445417" name="nYearNumber" stackId="11" startPc="268444709"/>
-<entry endPc="268445417" name="nMonthArray" stackId="17" startPc="268444709"/>
-<entry endPc="268445417" name="nWeekday" stackId="10" startPc="268444709"/>
-<entry endPc="268445417" name="nJ" stackId="14" startPc="268444709"/>
-<entry endPc="268445417" name="nI" stackId="13" startPc="268444709"/>
-<entry endPc="268445417" name="nH" stackId="9" startPc="268444709"/>
-<entry endPc="268445417" name="nG" stackId="7" startPc="268444709"/>
-<entry endPc="268445417" name="nC" stackId="6" startPc="268444709"/>
-<entry endPc="268445417" name="nJan1Weekday" stackId="8" startPc="268444709"/>
-<entry endPc="268445417" name="nNumDaysOfYear" stackId="4" startPc="268444709"/>
-<entry endPc="268445418" name="nYear" stackId="1" startPc="268444697"/>
-<entry endPc="268445418" name="nMonth" stackId="2" startPc="268444697"/>
-<entry endPc="268445418" name="nDay" stackId="3" startPc="268444697"/>
-<entry endPc="268445526" name="m" stackId="2" startPc="268445418"/>
-<entry endPc="268445526" name="d" stackId="1" startPc="268445418"/>
-<entry endPc="268445526" name="y" stackId="3" startPc="268445418"/>
-<entry endPc="268445588" name="now" stackId="4" startPc="268445538"/>
-<entry endPc="268445588" name="begOfYear" stackId="5" startPc="268445538"/>
-<entry endPc="268445589" name="day" stackId="1" startPc="268445526"/>
-<entry endPc="268445589" name="year" stackId="3" startPc="268445526"/>
-<entry endPc="268445589" name="month" stackId="2" startPc="268445526"/>
-<entry endPc="268446260" name="cosDec" stackId="16" startPc="268445601"/>
-<entry endPc="268446260" name="cosH" stackId="17" startPc="268445601"/>
-<entry endPc="268446260" name="RAquadrant" stackId="14" startPc="268445601"/>
-<entry endPc="268446260" name="Lquadrant" stackId="13" startPc="268445601"/>
-<entry endPc="268446260" name="lnHour" stackId="8" startPc="268445601"/>
-<entry endPc="268446260" name="T" stackId="19" startPc="268445601"/>
-<entry endPc="268446260" name="R2D" stackId="7" startPc="268445601"/>
-<entry endPc="268446260" name="M" stackId="10" startPc="268445601"/>
-<entry endPc="268446260" name="RA" stackId="12" startPc="268445601"/>
-<entry endPc="268446260" name="L" stackId="11" startPc="268445601"/>
-<entry endPc="268446260" name="UT" stackId="20" startPc="268445601"/>
-<entry endPc="268446260" name="sinDec" stackId="15" startPc="268445601"/>
-<entry endPc="268446260" name="D2R" stackId="6" startPc="268445601"/>
-<entry endPc="268446260" name="H" stackId="18" startPc="268445601"/>
-<entry endPc="268446260" name="zenith" stackId="5" startPc="268445601"/>
-<entry endPc="268446260" name="t" stackId="9" startPc="268445601"/>
-<entry endPc="268446261" name="day" stackId="1" startPc="268445589"/>
-<entry endPc="268446261" name="sunrise" stackId="4" startPc="268445589"/>
-<entry endPc="268446261" name="longitude" stackId="2" startPc="268445589"/>
-<entry endPc="268446261" name="latitude" stackId="3" startPc="268445589"/>
-<entry endPc="268446289" name="state" stackId="1" startPc="268446284"/>
-<entry endPc="268446294" name="state" stackId="1" startPc="268446289"/>
+<entry endPc="268435516" name="f" stackId="1" startPc="268435456"/>
+<entry endPc="268435585" name="f2" stackId="2" startPc="268435528"/>
+<entry endPc="268435586" name="f" stackId="1" startPc="268435516"/>
+<entry endPc="268436306" name="nYY" stackId="5" startPc="268435598"/>
+<entry endPc="268436306" name="nWeekNumber" stackId="12" startPc="268435598"/>
+<entry endPc="268436306" name="bIsPrevYear" stackId="16" startPc="268435598"/>
+<entry endPc="268436306" name="bIsLeapYear" stackId="15" startPc="268435598"/>
+<entry endPc="268436306" name="nYearNumber" stackId="11" startPc="268435598"/>
+<entry endPc="268436306" name="nMonthArray" stackId="17" startPc="268435598"/>
+<entry endPc="268436306" name="nWeekday" stackId="10" startPc="268435598"/>
+<entry endPc="268436306" name="nJ" stackId="14" startPc="268435598"/>
+<entry endPc="268436306" name="nI" stackId="13" startPc="268435598"/>
+<entry endPc="268436306" name="nH" stackId="9" startPc="268435598"/>
+<entry endPc="268436306" name="nG" stackId="7" startPc="268435598"/>
+<entry endPc="268436306" name="nC" stackId="6" startPc="268435598"/>
+<entry endPc="268436306" name="nJan1Weekday" stackId="8" startPc="268435598"/>
+<entry endPc="268436306" name="nNumDaysOfYear" stackId="4" startPc="268435598"/>
+<entry endPc="268436307" name="nYear" stackId="1" startPc="268435586"/>
+<entry endPc="268436307" name="nMonth" stackId="2" startPc="268435586"/>
+<entry endPc="268436307" name="nDay" stackId="3" startPc="268435586"/>
+<entry endPc="268436415" name="m" stackId="2" startPc="268436307"/>
+<entry endPc="268436415" name="d" stackId="1" startPc="268436307"/>
+<entry endPc="268436415" name="y" stackId="3" startPc="268436307"/>
+<entry endPc="268436477" name="now" stackId="4" startPc="268436427"/>
+<entry endPc="268436477" name="begOfYear" stackId="5" startPc="268436427"/>
+<entry endPc="268436478" name="day" stackId="1" startPc="268436415"/>
+<entry endPc="268436478" name="year" stackId="3" startPc="268436415"/>
+<entry endPc="268436478" name="month" stackId="2" startPc="268436415"/>
+<entry endPc="268437149" name="cosDec" stackId="16" startPc="268436490"/>
+<entry endPc="268437149" name="cosH" stackId="17" startPc="268436490"/>
+<entry endPc="268437149" name="RAquadrant" stackId="14" startPc="268436490"/>
+<entry endPc="268437149" name="Lquadrant" stackId="13" startPc="268436490"/>
+<entry endPc="268437149" name="lnHour" stackId="8" startPc="268436490"/>
+<entry endPc="268437149" name="T" stackId="19" startPc="268436490"/>
+<entry endPc="268437149" name="R2D" stackId="7" startPc="268436490"/>
+<entry endPc="268437149" name="M" stackId="10" startPc="268436490"/>
+<entry endPc="268437149" name="RA" stackId="12" startPc="268436490"/>
+<entry endPc="268437149" name="L" stackId="11" startPc="268436490"/>
+<entry endPc="268437149" name="UT" stackId="20" startPc="268436490"/>
+<entry endPc="268437149" name="sinDec" stackId="15" startPc="268436490"/>
+<entry endPc="268437149" name="D2R" stackId="6" startPc="268436490"/>
+<entry endPc="268437149" name="H" stackId="18" startPc="268436490"/>
+<entry endPc="268437149" name="zenith" stackId="5" startPc="268436490"/>
+<entry endPc="268437149" name="t" stackId="9" startPc="268436490"/>
+<entry endPc="268437150" name="day" stackId="1" startPc="268436478"/>
+<entry endPc="268437150" name="sunrise" stackId="4" startPc="268436478"/>
+<entry endPc="268437150" name="longitude" stackId="2" startPc="268436478"/>
+<entry endPc="268437150" name="latitude" stackId="3" startPc="268436478"/>
+<entry endPc="268437437" name="cx" stackId="8" startPc="268437217"/>
+<entry endPc="268437437" name="cyy" stackId="9" startPc="268437217"/>
+<entry endPc="268437450" name="cy" stackId="7" startPc="268437217"/>
+<entry endPc="268437450" name="r2" stackId="5" startPc="268437162"/>
+<entry endPc="268437450" name="pcx" stackId="6" startPc="268437162"/>
+<entry endPc="268437451" name="x" stackId="1" startPc="268437150"/>
+<entry endPc="268437451" name="dc" stackId="4" startPc="268437150"/>
+<entry endPc="268437451" name="r" stackId="3" startPc="268437150"/>
+<entry endPc="268437451" name="y" stackId="2" startPc="268437150"/>
+<entry endPc="268437961" name="pos_x" stackId="11" startPc="268437717"/>
+<entry endPc="268437961" name="b" stackId="10" startPc="268437463"/>
+<entry endPc="268437961" name="ty" stackId="8" startPc="268437463"/>
+<entry endPc="268437961" name="a" stackId="9" startPc="268437463"/>
+<entry endPc="268437961" name="tx" stackId="7" startPc="268437463"/>
+<entry endPc="268437961" name="pos_y" stackId="6" startPc="268437463"/>
+<entry endPc="268437961" name="x1" stackId="5" startPc="268437463"/>
+<entry endPc="268437962" name="x" stackId="1" startPc="268437451"/>
+<entry endPc="268437962" name="dc" stackId="4" startPc="268437451"/>
+<entry endPc="268437962" name="r" stackId="3" startPc="268437451"/>
+<entry endPc="268437962" name="y" stackId="2" startPc="268437451"/>
+<entry endPc="268438316" name="x" stackId="5" startPc="268437974"/>
+<entry endPc="268438316" name="cd2" stackId="7" startPc="268437974"/>
+<entry endPc="268438316" name="y" stackId="6" startPc="268437974"/>
+<entry endPc="268438317" name="dc" stackId="4" startPc="268437962"/>
+<entry endPc="268438317" name="r" stackId="3" startPc="268437962"/>
+<entry endPc="268438317" name="xc" stackId="1" startPc="268437962"/>
+<entry endPc="268438317" name="yc" stackId="2" startPc="268437962"/>
+<entry endPc="268438644" name="x" stackId="8" startPc="268438329"/>
+<entry endPc="268438644" name="dB" stackId="7" startPc="268438329"/>
+<entry endPc="268438644" name="dA" stackId="6" startPc="268438329"/>
+<entry endPc="268438644" name="d" stackId="5" startPc="268438329"/>
+<entry endPc="268438644" name="y" stackId="9" startPc="268438329"/>
+<entry endPc="268438645" name="dc" stackId="4" startPc="268438317"/>
+<entry endPc="268438645" name="R" stackId="3" startPc="268438317"/>
+<entry endPc="268438645" name="xc" stackId="1" startPc="268438317"/>
+<entry endPc="268438645" name="yc" stackId="2" startPc="268438317"/>
+<entry endPc="268438748" name="cx" stackId="7" startPc="268438682"/>
+<entry endPc="268438748" name="cyy" stackId="8" startPc="268438682"/>
+<entry endPc="268438761" name="cy" stackId="6" startPc="268438682"/>
+<entry endPc="268438761" name="r2" stackId="5" startPc="268438657"/>
+<entry endPc="268438762" name="x" stackId="1" startPc="268438645"/>
+<entry endPc="268438762" name="dc" stackId="4" startPc="268438645"/>
+<entry endPc="268438762" name="r" stackId="3" startPc="268438645"/>
+<entry endPc="268438762" name="y" stackId="2" startPc="268438645"/>
+<entry endPc="268438790" name="state" stackId="1" startPc="268438785"/>
+<entry endPc="268438795" name="state" stackId="1" startPc="268438790"/>
+<entry endPc="268439033" name="time" stackId="1" startPc="268438896"/>
+<entry endPc="268439033" name="set" stackId="2" startPc="268438896"/>
+<entry endPc="268439139" name="dc" stackId="1" startPc="268439122"/>
+<entry endPc="268440757" name="langTest" stackId="1" startPc="268439143"/>
+<entry endPc="268442164" name="a" stackId="4" startPc="268441900"/>
+<entry endPc="268442164" name="r" stackId="5" startPc="268441900"/>
+<entry endPc="268443059" name="TempS" stackId="10" startPc="268442855"/>
+<entry endPc="268443059" name="TempH" stackId="9" startPc="268442855"/>
+<entry endPc="268443713" name="text" stackId="11" startPc="268443079"/>
+<entry endPc="268443730" name="HRS" stackId="8" startPc="268441773"/>
+<entry endPc="268443730" name="HRH" stackId="7" startPc="268441773"/>
+<entry endPc="268443730" name="ampm" stackId="6" startPc="268441773"/>
+<entry endPc="268443730" name="h" stackId="3" startPc="268441773"/>
+<entry endPc="268443730" name="info" stackId="2" startPc="268441773"/>
+<entry endPc="268443834" name="dc" stackId="1" startPc="268441687"/>
+<entry endPc="268443903" name="number" stackId="1" startPc="268443834"/>
+<entry endPc="268444271" name="sin" stackId="5" startPc="268443907"/>
+<entry endPc="268444271" name="cos" stackId="4" startPc="268443907"/>
+<entry endPc="268444271" name="offset" stackId="6" startPc="268443907"/>
+<entry endPc="268444271" name="angle" stackId="3" startPc="268443907"/>
+<entry endPc="268444271" name="gap" stackId="7" startPc="268443907"/>
+<entry endPc="268444272" name="dc" stackId="1" startPc="268443903"/>
+<entry endPc="268444272" name="seconds" stackId="2" startPc="268443903"/>
+<entry endPc="268444751" name="sin" stackId="5" startPc="268444276"/>
+<entry endPc="268444751" name="minutes" stackId="2" startPc="268444276"/>
+<entry endPc="268444751" name="cos" stackId="4" startPc="268444276"/>
+<entry endPc="268444751" name="offset" stackId="6" startPc="268444276"/>
+<entry endPc="268444751" name="angle" stackId="3" startPc="268444276"/>
+<entry endPc="268444751" name="gap" stackId="7" startPc="268444276"/>
+<entry endPc="268444752" name="dc" stackId="1" startPc="268444272"/>
+<entry endPc="268444921" name="bat" stackId="2" startPc="268444756"/>
+<entry endPc="268444921" name="yPos" stackId="4" startPc="268444756"/>
+<entry endPc="268444921" name="xPos" stackId="3" startPc="268444756"/>
+<entry endPc="268444922" name="dc" stackId="1" startPc="268444752"/>
+<entry endPc="268445448" name="a" stackId="2" startPc="268444948"/>
+<entry endPc="268445448" name="r" stackId="3" startPc="268444948"/>
+<entry endPc="268445452" name="dc" stackId="1" startPc="268444922"/>
+<entry endPc="268446203" name="i" stackId="6" startPc="268446152"/>
+<entry endPc="268446389" name="i" stackId="7" startPc="268446250"/>
+<entry endPc="268446390" name="max" stackId="4" startPc="268445456"/>
+<entry endPc="268446390" name="now" stackId="3" startPc="268445456"/>
+<entry endPc="268446390" name="offset" stackId="5" startPc="268445456"/>
+<entry endPc="268446390" name="timeInfo" stackId="2" startPc="268445456"/>
+<entry endPc="268446390" name="pos" stackId="1" startPc="268445456"/>
 </localVars>
 <annotations/>
 <functions>
+<functionEntry accessMode="public" name="floor">
+<param id="f"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="ceil">
+<param id="f"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getWeekNbr">
+<param id="nYear"/>
+<param id="nMonth"/>
+<param id="nDay"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="computeDayNumber">
+<param id="d"/>
+<param id="m"/>
+<param id="y"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="dayOfYear">
+<param id="day"/>
+<param id="month"/>
+<param id="year"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="computeSunriset">
+<param id="day"/>
+<param id="longitude"/>
+<param id="latitude"/>
+<param id="sunrise"/>
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="drawCircle1">
 <param id="x"/>
 <param id="y"/>
@@ -826,6 +859,23 @@
 <param id="y"/>
 <param id="r"/>
 <param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="lateApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="lateApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="lateApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onSettingsChanged" parent="lateApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="lateApp">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="lateView">
@@ -879,56 +929,6 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="computeSun" parent="lateView">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="floor">
-<param id="f"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="ceil">
-<param id="f"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="getWeekNbr">
-<param id="nYear"/>
-<param id="nMonth"/>
-<param id="nDay"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="computeDayNumber">
-<param id="d"/>
-<param id="m"/>
-<param id="y"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="dayOfYear">
-<param id="day"/>
-<param id="month"/>
-<param id="year"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="computeSunriset">
-<param id="day"/>
-<param id="longitude"/>
-<param id="latitude"/>
-<param id="sunrise"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="lateApp">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onStart" parent="lateApp">
-<param id="state"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onStop" parent="lateApp">
-<param id="state"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onSettingsChanged" parent="lateApp">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="getInitialView" parent="lateApp">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="MainMenu">
