@@ -72,6 +72,26 @@ class lateView extends Ui.WatchFace {
         centerY = height >> 1;
         //sunrise/sunset stuff
         clockTime = Sys.getClockTime();
+        
+        //read last values from the Object Store
+        var temp=App.getApp().getProperty(OSCOUNTER);
+        if(temp!=null && temp instanceof Number) {counter=temp;}
+        
+        temp=App.getApp().getProperty(OSTodayHigh);
+        if(temp!=null && temp instanceof String) {bgTodayHigh=temp;}
+        
+        temp=App.getApp().getProperty(OSTodayLow);
+        if(temp!=null && temp instanceof String) {bgTodayLow=temp;}
+        
+        temp=App.getApp().getProperty(OSTomorrowHigh);
+        if(temp!=null && temp instanceof String) {bgTomorrowHigh=temp;}
+        
+        temp=App.getApp().getProperty(OSTomorrowLow);
+        if(temp!=null && temp instanceof String) {bgTomorrowLow=temp;}
+        
+        var now=Sys.getClockTime();
+    	var ts=now.hour+":"+now.min.format("%02d");
+        Sys.println("From OS: data="+bgTodayHigh+","+bgTodayLow+","+bgTomorrowHigh+","+bgTomorrowLow+" "+counter+" at "+ts);  
     }
     
     function onExitSleep() {
@@ -208,6 +228,10 @@ class lateView extends Ui.WatchFace {
     //! Called when this View is removed from the screen. Save the state of this View here. This includes freeing resources from memory.
     function onHide(){
         redrawAll =0;
+        var now=Sys.getClockTime();
+    	var ts=now.hour+":"+now.min.format("%02d");        
+        Sys.println("onHide counter="+counter+" "+ts);    
+    	App.getApp().setProperty(OSCOUNTER, counter);
     }
     
     //! The user has just looked at their watch. Timers and animations may be started here.
@@ -288,12 +312,23 @@ class lateView extends Ui.WatchFace {
 				dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_BLACK);
 				var TempH=Toybox.SensorHistory.getTemperatureHistory({});
 				var TempS=TempH.next();
-				dc.drawText(centerX+103, centerY - 20, Gfx.FONT_SYSTEM_TINY, Lang.format("$1$°",[TempS.data.toNumber().toString()]), Gfx.TEXT_JUSTIFY_CENTER);
+				TempS = TempS.data * 1.8 + 32;
+				dc.drawText(centerX+103, centerY - 20, Gfx.FONT_SYSTEM_TINY, Lang.format("$1$°",[TempS.toNumber().toString()]), Gfx.TEXT_JUSTIFY_CENTER);
 				
 			}
 			
 			//Draw forcast //TODO need to update this to pull location based on IP then pass that to openweathermap
 			//var latLon = Toybox.Position.info.position.toDegrees();
+						
+			//var url = "http://www.broadbandmap.gov/broadbandmap/demographic/jun2014/nation";
+			// WORKS
+			//Comm.makeWebRequest(url, {"format" => "json"}, {}, method(:onReceive));
+		    //Communications.makeJsonRequest("http://freegeoip.net/json", {}, {}, method(:onReceive));
+		    //country_code	"US"
+		    //city	"Leesburg"
+		    //zip_code	"20176"
+		    
+		    //api.openweathermap.org/data/2.5/forecast?zip=20176,US&APPID=f175ed51e7c728ca4b30395693a24d34&units=imperial
 			//Comm.makeJsonRequest("http://api.openweathermap.org/data/2.5/weather",{"lat"=>latLon[0].toFloat(), "lon"=>latLon[1].toFloat(),"appid"=>"f175ed51e7c728ca4b30395693a24d34"}, {}, method(:onReceive));
 			
 			
@@ -587,4 +622,26 @@ class lateView extends Ui.WatchFace {
         }*/
         return;
    }
+   
+   
+   function onReceive(responseCode, data)
+	{
+        Sys.println("data received");
+        debug += "data received\n";
+	    if( responseCode == 200 )
+	    {
+	        Sys.println("data ok 200");
+       	 	debug += "data ok 200\n";	
+	        Sys.println(data);
+       	 	debug += data + "\n";	
+	    }
+	    else
+	    { 
+	    	Sys.println("response code:" + responseCode);
+       	 	debug += "code:" + responseCode + "\n";	
+	    	Sys.println("data:" + data);
+       	 	debug += "data:" + data + "\n";	
+	    }
+	    Ui.requestUpdate(); // this will then display the debug variable on the screen.
+	}
 }
