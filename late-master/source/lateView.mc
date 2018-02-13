@@ -91,7 +91,15 @@ class lateView extends Ui.WatchFace {
         
         var now=Sys.getClockTime();
     	var ts=now.hour+":"+now.min.format("%02d");
-        Sys.println("From OS: data="+bgTodayHigh+","+bgTodayLow+","+bgTomorrowHigh+","+bgTomorrowLow+" "+counter+" at "+ts);  
+        Sys.println("From OS: data="+bgTodayHigh+","+bgTodayLow+","+bgTomorrowHigh+","+bgTomorrowLow+" "+counter+" at "+ts);
+        
+        var systemStats = Sys.getSystemStats();
+        Sys.println(Lang.format("$1$, $2$, $3$, $4$", [
+            _M_count,
+            systemStats.freeMemory,
+            systemStats.usedMemory,
+            1.0 * systemStats.freeMemory / systemStats.totalMemory
+        ]));
     }
     
     function onExitSleep() {
