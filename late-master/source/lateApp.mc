@@ -52,7 +52,13 @@ class lateApp extends App.AppBase{
         return [ new lateView() ];
     }
     
-    function onBackgroundData(todayHigh, todayLow, tomorrowHigh, tomorrowLow) {
+    function onBackgroundData(data) {
+    	//TODO split data into
+    	var todayHigh="";
+    	var todayLow="";
+    	var tomorrowHigh="";
+    	var tomorrowLow="";
+    	
     	counter++;
     	var now=Sys.getClockTime();
     	var ts=now.hour+":"+now.min.format("%02d");

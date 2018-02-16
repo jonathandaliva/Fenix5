@@ -22,8 +22,12 @@ class LatebgServiceDelegate extends Toybox.System.ServiceDelegate {
         
         	//Draw forcast //TODO need to update this to pull location based on IP then pass that to openweathermap
 			//var latLon = Toybox.Position.info.position.toDegrees();
-						
-		Communications.makeWebRequest("https://freegeoip.net/json/", {"format" => "json"}, {}, method(:onReceiveLocation));
+			//https://api.darksky.net/forecast/dec84d9b5c99a82a25e386b2257cf9b0/37.8267,-122.4233?exclude=currently,minutely,hourly,alerts,flags
+			
+		//Communications.makeWebRequest("https://freegeoip.net/json/", {"format" => "json"}, {}, method(:onReceiveLocation));
+		
+		Communications.makeWebRequest("https://api.darksky.net/forecast/dec84d9b5c99a82a25e386b2257cf9b0/37.8267,-122.4233?exclude=currently,minutely,hourly,alerts,flags", {"format" => "json"}, {}, method(:onReceiveLocation));
+		
 		//Communications.makeWebRequest(url, {}, {}, method(:onReceive));
 		    //Communications.makeJsonRequest("http://freegeoip.net/json", {}, {}, method(:onReceive));
 		    //country_code	"US"
@@ -40,11 +44,13 @@ class LatebgServiceDelegate extends Toybox.System.ServiceDelegate {
     function onReceiveLocation(responseCode, data)
 	{
         Sys.println("location data received");
+        
+        printMemoryStats();
 	    if( responseCode == 200 )
 	    {
 	        Sys.println("data ok 200");	
 	        Sys.println(data);
-	        var mystring = "" + data;
+	        /*var mystring = "" + data;
 	        data = "";
 	        var index = mystring.find("region_code=>");
 	        var region_code = mystring.substring(index + 13,  index + 15);
@@ -60,15 +66,16 @@ class LatebgServiceDelegate extends Toybox.System.ServiceDelegate {
 	        //var URL = "https://api.openweathermap.org/data/2.5/forecast?zip=" + data + "&APPID=" + AppID + "&units=imperial";
 	        var URL = "https://api.wunderground.com/api/" + AppID + "/forecast/q/" + data + ".json";
 	        Sys.println(URL);
-	        Communications.makeWebRequest(URL, {"format" => "json"}, {}, method(:onReceiveForcast));
+	        */
+	        printMemoryStats();
+	        //Communications.makeWebRequest(URL, {"format" => "json"}, {}, method(:onReceiveForcast));
+	        Background.exit("");
 	    }
 	    else
 	    { 
 	    	Sys.println("response code:" + responseCode);
-       	 	debug += "code:" + responseCode + "\n";	
-	    	Sys.println("data:" + data);
-       	 	debug += "data:" + data + "\n";	
-       	 	Background.exit("", "" , "", "");
+       	 	Sys.println("data:" + data);
+       	 	Background.exit("");
 	    }
 	    //Background.exit(data);
 	    //Ui.requestUpdate(); // this will then display the debug variable on the screen.
@@ -87,17 +94,26 @@ class LatebgServiceDelegate extends Toybox.System.ServiceDelegate {
 	        var todayLow = "";
 	        var tomorrowHigh = "";
 	        var tomorrowLow = "";
-
-	        Background.exit(todayHigh, todayLow, tomorrowHigh, tomorrowLow);
+			var data = "";
+			//TODO put todayHigh, todayLow, tomorrowHigh, tomorrowLow into data
+	        Background.exit(data);
 	    }
 	    else
 	    { 
 	    	Sys.println("response code:" + responseCode);
 	    	Sys.println("data:" + data);
-       	 	Background.exit("", "" , "", "");
+       	 	Background.exit("");
 	    }
 	    //Background.exit(data);
 	    //Ui.requestUpdate(); // this will then display the debug variable on the screen.
 	}
 
+	function printMemoryStats() {
+		var systemStats = Sys.getSystemStats();
+        Sys.println(Lang.format("$1$, $2$, $3$", [
+            systemStats.freeMemory,
+            systemStats.usedMemory,
+            1.0 * systemStats.freeMemory / systemStats.totalMemory
+        ]));
+	}
 }

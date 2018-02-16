@@ -93,13 +93,7 @@ class lateView extends Ui.WatchFace {
     	var ts=now.hour+":"+now.min.format("%02d");
         Sys.println("From OS: data="+bgTodayHigh+","+bgTodayLow+","+bgTomorrowHigh+","+bgTomorrowLow+" "+counter+" at "+ts);
         
-        var systemStats = Sys.getSystemStats();
-        Sys.println(Lang.format("$1$, $2$, $3$, $4$", [
-            _M_count,
-            systemStats.freeMemory,
-            systemStats.usedMemory,
-            1.0 * systemStats.freeMemory / systemStats.totalMemory
-        ]));
+		printMemoryStats();
     }
     
     function onExitSleep() {
@@ -651,5 +645,14 @@ class lateView extends Ui.WatchFace {
        	 	debug += "data:" + data + "\n";	
 	    }
 	    Ui.requestUpdate(); // this will then display the debug variable on the screen.
+	}
+	
+	function printMemoryStats() {
+		var systemStats = Sys.getSystemStats();
+        Sys.println(Lang.format("$1$, $2$, $3$", [
+            systemStats.freeMemory,
+            systemStats.usedMemory,
+            1.0 * systemStats.freeMemory / systemStats.totalMemory
+        ]));
 	}
 }
