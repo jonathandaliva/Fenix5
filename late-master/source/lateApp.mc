@@ -51,7 +51,7 @@ class lateApp extends App.AppBase{
         //register for temporal events if they are supported
     	if(Toybox.System has :ServiceDelegate) {
     		canDoBG=true;
-    		Background.registerForTemporalEvent(new Time.Duration(5*60));
+    		Background.registerForTemporalEvent(new Time.Duration(120*60));
     	} else {
     		Sys.println("****background not available on this device****");
     	}
