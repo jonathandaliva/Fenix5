@@ -7,15 +7,21 @@ using Toybox.WatchUi as Ui;
 var counter=0;
 var bgTodayHigh="";
 var bgTodayLow="";
+var bgTodayDesc="";
 var bgTomorrowHigh="";
 var bgTomorrowLow="";
+var bgTomorrowDesc="";
+var bgValidResponse=false;
 var canDoBG=false;
 // keys to the object store data
 var OSCOUNTER="oscounter";
-var OSTodayHigh="";
-var OSTodayLow="";
-var OSTomorrowHigh="";
-var OSTomorrowLow="";
+var OSTodayHigh="OSTodayHigh";
+var OSTodayLow="OSTodayLow";
+var OSTodayDesc="OSTodayDesc";
+var OSTomorrowHigh="OSTomorrowHigh";
+var OSTomorrowLow="OSTomorrowLow";
+var OSTomorrowDesc="OSTomorrowDesc";
+var OSValidResponse="OSValidResponse";
 
 (:background)
 class lateApp extends App.AppBase{
@@ -53,25 +59,75 @@ class lateApp extends App.AppBase{
     }
     
     function onBackgroundData(data) {
-    	//TODO split data into
-    	var todayHigh="";
-    	var todayLow="";
-    	var tomorrowHigh="";
-    	var tomorrowLow="";
-    	
     	counter++;
     	var now=Sys.getClockTime();
     	var ts=now.hour+":"+now.min.format("%02d");
-        Sys.println("onBackgroundData="+todayHigh+","+todayLow+","+tomorrowHigh+","+tomorrowLow+" "+counter+" at "+ts);
-        bgTodayHigh=todayHigh;
-		bgTodayLow=todayLow;
-		bgTomorrowHigh=tomorrowHigh;
-		bgTomorrowLow=tomorrowLow;
-        App.getApp().setProperty(OSTodayHigh,todayHigh);
-        App.getApp().setProperty(OSTodayLow,todayLow);
-        App.getApp().setProperty(OSTomorrowHigh,tomorrowHigh);
-        App.getApp().setProperty(OSTomorrowLow,tomorrowLow);
-        Ui.requestUpdate();
+        Sys.println("onBackgroundData="+ data +" at "+ts);
+        App.getApp().setProperty(OSValidResponse,false);
+    	if ( data != "" ) { //we got data
+	    	//split data into
+	    	var myString = "" + data;
+	    	data = "";
+	    	var index = myString.find(",");
+	    	//Sys.println("index="+ index);
+	    	var todayHigh=myString.substring(0,index);
+	    	//Sys.println("todayHigh="+ todayHigh);
+	    	myString = myString.substring(index + 1,  myString.length());
+	    	//Sys.println("myString="+ myString);
+	    	index = myString.find(",");
+	    	//Sys.println("index="+ index);
+	    	var todayLow=myString.substring(0,index);
+	    	myString = myString.substring(index + 1,  myString.length());
+	    	//Sys.println("myString="+ myString);
+	    	index = myString.find(",");
+	    	//Sys.println("index="+ index);
+	    	var todayDesc = myString.substring(0,index);
+	    	myString = myString.substring(index + 1,  myString.length());
+	    	//Sys.println("myString="+ myString);
+	    	index = myString.find(",");
+	    	//Sys.println("index="+ index);
+	    	var tomorrowHigh = myString.substring(0,index);
+	    	myString = myString.substring(index + 1,  myString.length());
+	    	//Sys.println("myString="+ myString);
+	    	index = myString.find(",");
+	    	//Sys.println("index="+ index);
+	    	var tomorrowLow = myString.substring(0,index);
+	    	myString = myString.substring(index + 1,  myString.length());
+	    	//Sys.println("myString="+ myString);
+	    	index = myString.find(",");
+	    	if ( index == null ) {
+	    		index = myString.length();
+	    	}
+	    	//Sys.println("index="+ index);
+	    	var tomorrowDesc = myString.substring(0,index);
+	    	myString = "";
+	    	Sys.println("Parsed vars: "+ todayHigh + ", " + todayLow + ", " + todayDesc + ", " + tomorrowHigh + ", " + tomorrowLow + ", " + tomorrowDesc);
+	    	if(todayHigh.toNumber()!=999) {
+	    		bgTodayHigh=todayHigh;
+	        	App.getApp().setProperty(OSTodayHigh,todayHigh);
+	        	Sys.println("setting todays high");
+	    	}
+			bgTodayLow=todayLow;
+			bgTodayDesc=todayDesc;
+			bgTomorrowHigh=tomorrowHigh;
+			bgTomorrowLow=tomorrowLow;
+			bgTomorrowDesc=tomorrowDesc;
+			bgValidResponse = true;
+	        App.getApp().setProperty(OSTodayLow,todayLow);
+	        App.getApp().setProperty(OSTodayDesc,todayDesc);
+	        App.getApp().setProperty(OSTomorrowHigh,tomorrowHigh);
+	        App.getApp().setProperty(OSTomorrowLow,tomorrowLow);
+	        App.getApp().setProperty(OSTomorrowDesc,tomorrowDesc);
+	        App.getApp().setProperty(OSValidResponse,true);
+	        todayHigh="";
+			todayLow="";
+			todayDesc="";
+			tomorrowHigh="";
+			tomorrowLow="";
+			tomorrowDesc="";
+	        Ui.requestUpdate();
+    	}
+    	
     }    
 
     function getServiceDelegate(){

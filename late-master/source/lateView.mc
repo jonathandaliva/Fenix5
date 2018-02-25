@@ -44,6 +44,7 @@ class lateView extends Ui.WatchFace {
     hidden var sunrs = null;   
     hidden var sunst = null;   
     hidden var icon = null;
+    hidden var weatherIcon = null;
     hidden var fontSmall = null; 
     hidden var fontMinutes = null;
     hidden var fontHours = null;
@@ -83,11 +84,20 @@ class lateView extends Ui.WatchFace {
         temp=App.getApp().getProperty(OSTodayLow);
         if(temp!=null && temp instanceof String) {bgTodayLow=temp;}
         
+        temp=App.getApp().getProperty(OSTodayDesc);
+        if(temp!=null && temp instanceof String) {bgTodayDesc=temp;}
+        
         temp=App.getApp().getProperty(OSTomorrowHigh);
         if(temp!=null && temp instanceof String) {bgTomorrowHigh=temp;}
         
         temp=App.getApp().getProperty(OSTomorrowLow);
         if(temp!=null && temp instanceof String) {bgTomorrowLow=temp;}
+        
+        temp=App.getApp().getProperty(OSTomorrowDesc);
+        if(temp!=null && temp instanceof String) {bgTomorrowDesc=temp;}
+        
+        var tempValidResponse =App.getApp().getProperty(OSValidResponse);
+        if(tempValidResponse!=null && tempValidResponse instanceof Boolean) {bgValidResponse=tempValidResponse;}
         
         var now=Sys.getClockTime();
     	var ts=now.hour+":"+now.min.format("%02d");
@@ -319,20 +329,24 @@ class lateView extends Ui.WatchFace {
 				
 			}
 			
-			//Draw forcast //TODO need to update this to pull location based on IP then pass that to openweathermap
-			//var latLon = Toybox.Position.info.position.toDegrees();
-						
-			//var url = "http://www.broadbandmap.gov/broadbandmap/demographic/jun2014/nation";
-			// WORKS
-			//Comm.makeWebRequest(url, {"format" => "json"}, {}, method(:onReceive));
-		    //Communications.makeJsonRequest("http://freegeoip.net/json", {}, {}, method(:onReceive));
-		    //country_code	"US"
-		    //city	"Leesburg"
-		    //zip_code	"20176"
-		    
-		    //api.openweathermap.org/data/2.5/forecast?zip=20176,US&APPID=f175ed51e7c728ca4b30395693a24d34&units=imperial
-			//Comm.makeJsonRequest("http://api.openweathermap.org/data/2.5/weather",{"lat"=>latLon[0].toFloat(), "lon"=>latLon[1].toFloat(),"appid"=>"f175ed51e7c728ca4b30395693a24d34"}, {}, method(:onReceive));
-			
+			//Draw forcast 
+			if ( bgValidResponse ) {
+				dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_BLACK);
+				//var TempText = bgTomorrowLow;
+				var bgTodayHighNum = bgTodayHigh.toNumber();
+				if(bgTodayHigh != null && bgTodayHigh instanceof String && bgTodayHigh!="" && bgTodayHighNum instanceof Number) {
+					Sys.println("today high "+ bgTodayHigh +"|");
+					dc.drawText(centerX-18, centerY + 51, Gfx.FONT_SYSTEM_TINY, Lang.format("$1$°",[bgTodayHigh.toNumber().toString()]), Gfx.TEXT_JUSTIFY_CENTER);
+				}
+				dc.drawText(centerX-18, centerY + 77, Gfx.FONT_SYSTEM_TINY, Lang.format("$1$°",[bgTodayLow.toNumber().toString()]), Gfx.TEXT_JUSTIFY_CENTER);
+				dc.drawText(centerX+25, centerY + 51, Gfx.FONT_SYSTEM_TINY, Lang.format("$1$°",[bgTomorrowHigh.toNumber().toString()]), Gfx.TEXT_JUSTIFY_CENTER);
+				dc.drawText(centerX+25, centerY + 77, Gfx.FONT_SYSTEM_TINY, Lang.format("$1$°",[bgTomorrowLow.toNumber().toString()]), Gfx.TEXT_JUSTIFY_CENTER);
+				
+				weatherIcon = getWeatherIcon(bgTodayDesc);				
+                dc.drawBitmap(centerX - 77, centerY + 54, weatherIcon);
+				weatherIcon = getWeatherIcon(bgTomorrowDesc);				
+                dc.drawBitmap(centerX + 42, centerY + 54, weatherIcon);
+			}
 			
             if(centerY>89){
 
@@ -625,28 +639,6 @@ class lateView extends Ui.WatchFace {
         return;
    }
    
-   
-   function onReceive(responseCode, data)
-	{
-        Sys.println("data received");
-        debug += "data received\n";
-	    if( responseCode == 200 )
-	    {
-	        Sys.println("data ok 200");
-       	 	debug += "data ok 200\n";	
-	        Sys.println(data);
-       	 	debug += data + "\n";	
-	    }
-	    else
-	    { 
-	    	Sys.println("response code:" + responseCode);
-       	 	debug += "code:" + responseCode + "\n";	
-	    	Sys.println("data:" + data);
-       	 	debug += "data:" + data + "\n";	
-	    }
-	    Ui.requestUpdate(); // this will then display the debug variable on the screen.
-	}
-	
 	function printMemoryStats() {
 		var systemStats = Sys.getSystemStats();
         Sys.println(Lang.format("$1$, $2$, $3$", [
@@ -654,5 +646,38 @@ class lateView extends Ui.WatchFace {
             systemStats.usedMemory,
             1.0 * systemStats.freeMemory / systemStats.totalMemory
         ]));
+	}
+	
+	function getWeatherIcon(description) {
+		var weatherIcon = null;
+		if ( description.find("Fair") != null || description.find("fair") != null || description.find("Clear") != null || description.find("clear") != null || description.find("Sunny") != null ) {
+			weatherIcon = Ui.loadResource(Rez.Drawables.Clear);
+		} else if ( description.find("Mostly Cloudy") != null ) {
+			weatherIcon = Ui.loadResource(Rez.Drawables.Cloudy);
+		} else if ( description.find("Cloud") != null ) {
+			weatherIcon = Ui.loadResource(Rez.Drawables.Clouds);
+		} else if ( description.find("Overcast") != null ) {
+			weatherIcon = Ui.loadResource(Rez.Drawables.Overcast);
+		} else if ( description.find("Snow") != null ) {
+			weatherIcon = Ui.loadResource(Rez.Drawables.Snow);
+		} else if ( description.find("Ice") != null || description.find("Freez") != null || description.find("Blizzard") != null ) {
+			weatherIcon = Ui.loadResource(Rez.Drawables.Ice);
+		} else if ( description.find("Thunderstorm") != null ) {
+			weatherIcon = Ui.loadResource(Rez.Drawables.Thunder);
+		} else if ( description.find("Rain") != null || description.find("Drizzl") != null || description.find("Shower") != null ) {
+			weatherIcon = Ui.loadResource(Rez.Drawables.Ice);
+		} else if ( description.find("Tornado") != null || description.find("Funnel") != null || description.find("Hurricane") != null || description.find("Tropical Storm") != null || description.find("Dust") != null || description.find("Sand") != null || description.find("Smoke") != null ) {
+			weatherIcon = Ui.loadResource(Rez.Drawables.Tornado);
+		} else if ( description.find("Wind") != null || description.find("Breez") != null ) {
+			weatherIcon = Ui.loadResource(Rez.Drawables.Windy);
+		} else if ( description.find("Hot") != null ) {
+			weatherIcon = Ui.loadResource(Rez.Drawables.Hot);
+		} else if ( description.find("Cold") != null ) {
+			weatherIcon = Ui.loadResource(Rez.Drawables.Cold);
+		} else {
+				weatherIcon = Ui.loadResource(Rez.Drawables.Overcast);
+		}
+		
+		return weatherIcon;
 	}
 }

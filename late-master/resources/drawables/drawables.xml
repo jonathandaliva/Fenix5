@@ -1,12 +1,25 @@
 <drawables>
-    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
-    <bitmap id="Moon" filename="moon.png" />
-    <bitmap id="Sun" filename="sun.png" />
-    <bitmap id="Sunset" filename="moon.png" />
-    <bitmap id="Sunrise" filename="sun.png" />
-    <bitmap id="Cal" filename="calories.png" />
-    <bitmap id="Steps" filename="steps.png" />
-    <bitmap id="Minutes" filename="minutes.png" />
-    <bitmap id="Floors" filename="floors.png" />
-    <bitmap id="Bat" filename="battery-low.png" />
+	<bitmap id="LauncherIcon" filename="launcher_icon.png" />
+	<bitmap id="Moon" filename="moon.png" />
+	<bitmap id="Sun" filename="sun.png" />
+	<bitmap id="Sunset" filename="moon.png" />
+	<bitmap id="Sunrise" filename="sun.png" />
+	<bitmap id="Cal" filename="calories.png" />
+	<bitmap id="Steps" filename="steps.png" />
+	<bitmap id="Minutes" filename="minutes.png" />
+	<bitmap id="Floors" filename="floors.png" />
+	<bitmap id="Bat" filename="battery-low.png" />
+	<bitmap id="Clouds" filename="weather-icon-clouds.png" />
+	<bitmap id="Cold" filename="weather-icon-cold.png" />
+	<bitmap id="Clear" filename="weather-icon-fairclear.png" />
+	<bitmap id="Hot" filename="weather-icon-hot.png" />
+	<bitmap id="Ice" filename="weather-icon-ice.png" />
+	<bitmap id="Lightning" filename="weather-icon-lightning.png" />
+	<bitmap id="Cloudy" filename="weather-icon-mostlycloudy.png" />
+	<bitmap id="Overcast" filename="weather-icon-overcast.png" />
+	<bitmap id="Rain" filename="weather-icon-rain.png" />
+	<bitmap id="Snow" filename="weather-icon-snow.png" />
+	<bitmap id="Thunder" filename="weather-icon-thunder.png" />
+	<bitmap id="Tornado" filename="weather-icon-tornado.png" />
+	<bitmap id="Windy" filename="weather-icon-windy.png" />
 </drawables>

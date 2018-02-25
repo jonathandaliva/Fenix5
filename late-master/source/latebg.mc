@@ -24,9 +24,18 @@ class LatebgServiceDelegate extends Toybox.System.ServiceDelegate {
 			//var latLon = Toybox.Position.info.position.toDegrees();
 			//https://api.darksky.net/forecast/dec84d9b5c99a82a25e386b2257cf9b0/37.8267,-122.4233?exclude=currently,minutely,hourly,alerts,flags
 			
-		//Communications.makeWebRequest("https://freegeoip.net/json/", {"format" => "json"}, {}, method(:onReceiveLocation));
+		Communications.makeWebRequest("https://freegeoip.net/json/", {"format" => "json"}, {}, method(:onReceiveLocation));
 		
-		Communications.makeWebRequest("https://api.darksky.net/forecast/dec84d9b5c99a82a25e386b2257cf9b0/37.8267,-122.4233?exclude=currently,minutely,hourly,alerts,flags", {"format" => "json"}, {}, method(:onReceiveLocation));
+		/*
+		var params = {
+		  "format" => "json",
+		  "lat" => "39.174801",
+		  "lon" => "-100.532600"
+		};
+		
+		Communications.makeWebRequest("https://www.simplefuckingweatherapi.com/greeting", params, {}, method(:onReceiveForcast));
+		*/
+		//Communications.makeWebRequest("https://api.wunderground.com/api/673c015c876b7115/planner_02170218/q/VA/Sterling.json", {"format" => "json"}, {}, method(:onReceiveLocation));
 		
 		//Communications.makeWebRequest(url, {}, {}, method(:onReceive));
 		    //Communications.makeJsonRequest("http://freegeoip.net/json", {}, {}, method(:onReceive));
@@ -45,31 +54,47 @@ class LatebgServiceDelegate extends Toybox.System.ServiceDelegate {
 	{
         Sys.println("location data received");
         
-        printMemoryStats();
+        //printMemoryStats();
 	    if( responseCode == 200 )
 	    {
-	        Sys.println("data ok 200");	
-	        Sys.println(data);
-	        /*var mystring = "" + data;
+	        Sys.println("Location data ok 200");	
+	        //Sys.println(data);
+	        var mystring = "" + data;
 	        data = "";
+	        /*
 	        var index = mystring.find("region_code=>");
 	        var region_code = mystring.substring(index + 13,  index + 15);
 	        index = mystring.find("zip_code=>");
 	        var zip_code = mystring.substring(index + 10,  index + 15);
 	        data = region_code + "/" + zip_code;
-	        Sys.println(data);
+	        */
+	        var lon = getJsonObject(mystring,"longitude=>");
+	        //Sys.println("lon: " + lon);
 	        
-	        var AppID="673c015c876b7115";
+	        var lat = getJsonObject(mystring,"latitude=>");
+	        //Sys.println("lat: " + lat);
+	        mystring = "";
+	        
+	        //var AppID="673c015c876b7115";
 	        //var AppID="f175ed51e7c728ca4b30395693a24d34";
-	        
 	        //http://api.wunderground.com/api/673c015c876b7115/forecast/q/VA/Leesburg.json
 	        //var URL = "https://api.openweathermap.org/data/2.5/forecast?zip=" + data + "&APPID=" + AppID + "&units=imperial";
-	        var URL = "https://api.wunderground.com/api/" + AppID + "/forecast/q/" + data + ".json";
-	        Sys.println(URL);
-	        */
-	        printMemoryStats();
-	        //Communications.makeWebRequest(URL, {"format" => "json"}, {}, method(:onReceiveForcast));
-	        Background.exit("");
+	        //var URL = "https://api.wunderground.com/api/" + AppID + "/forecast/q/" + data + ".json";
+	        
+	        var URL = "https://www.simplefuckingweatherapi.com/greeting"; 
+	        
+	        //Sys.println(URL);
+	        
+	        var params = {
+			  "format" => "json",
+			  "lat" => lat,
+			  "lon" => lon
+			};
+			//Sys.println(params);
+		
+	        //printMemoryStats();
+	        Communications.makeWebRequest(URL, params, {}, method(:onReceiveForcast));
+	        //Background.exit("");
 	    }
 	    else
 	    { 
@@ -86,16 +111,25 @@ class LatebgServiceDelegate extends Toybox.System.ServiceDelegate {
         Sys.println("forcast data received");
 	    if( responseCode == 200 )
 	    {
-	        Sys.println("data ok 200");	
-	        Sys.println(data);
+	        Sys.println("Forcast data ok 200");	
+	        //Sys.println(data);
 	        var mystring = "" + data;
 	        data = "";
-	        var todayHigh = "";
-	        var todayLow = "";
-	        var tomorrowHigh = "";
-	        var tomorrowLow = "";
-			var data = "";
-			//TODO put todayHigh, todayLow, tomorrowHigh, tomorrowLow into data
+	        var validResponse = getJsonObject(mystring,"validResponse=>");
+	        //if (validResponse instanceof Boolean) {
+		        if ( validResponse ) {
+		        	Sys.println("Forcast API returned good data");
+			        var todayHigh = getJsonObject(mystring,"tdyHigh=>");
+			        var todayLow = getJsonObject(mystring,"tdyLow=>");
+			        var todayDesc = getJsonObject(mystring,"tdyDesc=>");
+			        var tomorrowHigh = getJsonObject(mystring,"tmwHigh=>");
+			        var tomorrowLow = getJsonObject(mystring,"tmwLow=>");
+			        var tomorrowDesc = getJsonObject(mystring,"tmwDesc=>");
+					data = todayHigh + "," + todayLow + "," + todayDesc + "," + tomorrowHigh + "," + tomorrowLow + "," + tomorrowDesc;
+					//Sys.println(data);
+				}
+			//}
+			mystring = "";
 	        Background.exit(data);
 	    }
 	    else
@@ -115,5 +149,20 @@ class LatebgServiceDelegate extends Toybox.System.ServiceDelegate {
             systemStats.usedMemory,
             1.0 * systemStats.freeMemory / systemStats.totalMemory
         ]));
+	}
+	
+	function getJsonObject(jsonString, fieldName) {
+		var index = jsonString.find(fieldName);
+		jsonString = jsonString.substring(index + fieldName.length(),  jsonString.length());
+		index = jsonString.find(",");
+	    if (index == null) {
+			index = jsonString.find("}");
+			if (index == null) {
+				index = jsonString.length();
+			}
+		}
+		var fieldValue = jsonString.substring(0,  index);
+		jsonString = "";
+		return fieldValue;
 	}
 }
