@@ -65,7 +65,7 @@ class lateView extends Ui.WatchFace {
     hidden var lastRedrawMin=-1;
     
     function initialize (){
-        var time=Sys.getTimer();
+        //var time=Sys.getTimer();
         WatchFace.initialize();
         var set=Sys.getDeviceSettings();
         height = set.screenHeight;
@@ -101,9 +101,8 @@ class lateView extends Ui.WatchFace {
         
         var now=Sys.getClockTime();
     	var ts=now.hour+":"+now.min.format("%02d");
-        Sys.println("From OS: data="+bgTodayHigh+","+bgTodayLow+","+bgTomorrowHigh+","+bgTomorrowLow+" "+counter+" at "+ts);
-        
-		printMemoryStats();
+        //Sys.println("From OS: data="+bgTodayHigh+","+bgTodayLow+","+bgTomorrowHigh+","+bgTomorrowLow+" "+counter+" at "+ts);
+		//printMemoryStats();
     }
     
     function onExitSleep() {
@@ -240,9 +239,9 @@ class lateView extends Ui.WatchFace {
     //! Called when this View is removed from the screen. Save the state of this View here. This includes freeing resources from memory.
     function onHide(){
         redrawAll =0;
-        var now=Sys.getClockTime();
-    	var ts=now.hour+":"+now.min.format("%02d");        
-        Sys.println("onHide counter="+counter+" "+ts);    
+        //var now=Sys.getClockTime();
+    	//var ts=now.hour+":"+now.min.format("%02d");        
+        //Sys.println("onHide counter="+counter+" "+ts);    
     	App.getApp().setProperty(OSCOUNTER, counter);
     }
     
@@ -335,7 +334,7 @@ class lateView extends Ui.WatchFace {
 				//var TempText = bgTomorrowLow;
 				var bgTodayHighNum = bgTodayHigh.toNumber();
 				if(bgTodayHigh != null && bgTodayHigh instanceof String && bgTodayHigh!="" && bgTodayHighNum instanceof Number) {
-					Sys.println("today high "+ bgTodayHigh +"|");
+					//Sys.println("today high "+ bgTodayHigh +"|");
 					dc.drawText(centerX-18, centerY + 51, Gfx.FONT_SYSTEM_TINY, Lang.format("$1$°",[bgTodayHigh.toNumber().toString()]), Gfx.TEXT_JUSTIFY_CENTER);
 				}
 				dc.drawText(centerX-18, centerY + 77, Gfx.FONT_SYSTEM_TINY, Lang.format("$1$°",[bgTodayLow.toNumber().toString()]), Gfx.TEXT_JUSTIFY_CENTER);

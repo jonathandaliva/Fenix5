@@ -15,49 +15,40 @@ class LatebgServiceDelegate extends Toybox.System.ServiceDelegate {
 	}
 	
     function onTemporalEvent() {
-    	var now=Sys.getClockTime();
-    	var ts=now.hour+":"+now.min.format("%02d");
-        Sys.println("bg exit: "+ts);
+    	//var now=Sys.getClockTime();
+    	//var ts=now.hour+":"+now.min.format("%02d");
+        //Sys.println("bg exit: "+ts);
         //just return the timestamp
-        
-        	//Draw forcast //TODO need to update this to pull location based on IP then pass that to openweathermap
-			//var latLon = Toybox.Position.info.position.toDegrees();
-			//https://api.darksky.net/forecast/dec84d9b5c99a82a25e386b2257cf9b0/37.8267,-122.4233?exclude=currently,minutely,hourly,alerts,flags
-			
+        //Draw forcast //TODO need to update this to pull location based on IP then pass that to openweathermap
+		//var latLon = Toybox.Position.info.position.toDegrees();
+		//https://api.darksky.net/forecast/dec84d9b5c99a82a25e386b2257cf9b0/37.8267,-122.4233?exclude=currently,minutely,hourly,alerts,flags
 		Communications.makeWebRequest("https://freegeoip.net/json/", {"format" => "json"}, {}, method(:onReceiveLocation));
-		
 		/*
 		var params = {
 		  "format" => "json",
 		  "lat" => "39.174801",
 		  "lon" => "-100.532600"
 		};
-		
 		Communications.makeWebRequest("https://www.simplefuckingweatherapi.com/greeting", params, {}, method(:onReceiveForcast));
 		*/
 		//Communications.makeWebRequest("https://api.wunderground.com/api/673c015c876b7115/planner_02170218/q/VA/Sterling.json", {"format" => "json"}, {}, method(:onReceiveLocation));
-		
 		//Communications.makeWebRequest(url, {}, {}, method(:onReceive));
 		    //Communications.makeJsonRequest("http://freegeoip.net/json", {}, {}, method(:onReceive));
 		    //country_code	"US"
 		    //city	"Leesburg"
 		    //zip_code	"20176"
-		    
 		    //api.openweathermap.org/data/2.5/forecast?zip=20176,US&APPID=f175ed51e7c728ca4b30395693a24d34&units=imperial
 			//Comm.makeJsonRequest("http://api.openweathermap.org/data/2.5/weather",{"lat"=>latLon[0].toFloat(), "lon"=>latLon[1].toFloat(),"appid"=>"f175ed51e7c728ca4b30395693a24d34"}, {}, method(:onReceive));
-			
-        
         //Background.exit(ts);
     }
     
     function onReceiveLocation(responseCode, data)
 	{
-        Sys.println("location data received");
-        
+        //Sys.println("location data received");
         //printMemoryStats();
 	    if( responseCode == 200 )
 	    {
-	        Sys.println("Location data ok 200");	
+	        //Sys.println("Location data ok 200");	
 	        //Sys.println(data);
 	        var mystring = "" + data;
 	        data = "";
@@ -74,24 +65,19 @@ class LatebgServiceDelegate extends Toybox.System.ServiceDelegate {
 	        var lat = getJsonObject(mystring,"latitude=>");
 	        //Sys.println("lat: " + lat);
 	        mystring = "";
-	        
 	        //var AppID="673c015c876b7115";
 	        //var AppID="f175ed51e7c728ca4b30395693a24d34";
 	        //http://api.wunderground.com/api/673c015c876b7115/forecast/q/VA/Leesburg.json
 	        //var URL = "https://api.openweathermap.org/data/2.5/forecast?zip=" + data + "&APPID=" + AppID + "&units=imperial";
 	        //var URL = "https://api.wunderground.com/api/" + AppID + "/forecast/q/" + data + ".json";
-	        
 	        var URL = "https://www.simplefuckingweatherapi.com/greeting"; 
-	        
 	        //Sys.println(URL);
-	        
 	        var params = {
 			  "format" => "json",
 			  "lat" => lat,
 			  "lon" => lon
 			};
 			//Sys.println(params);
-		
 	        //printMemoryStats();
 	        Communications.makeWebRequest(URL, params, {}, method(:onReceiveForcast));
 	        //Background.exit("");
@@ -108,10 +94,10 @@ class LatebgServiceDelegate extends Toybox.System.ServiceDelegate {
 	
 	function onReceiveForcast(responseCode, data)
 	{
-        Sys.println("forcast data received");
+        //Sys.println("forcast data received");
 	    if( responseCode == 200 )
 	    {
-	        Sys.println("Forcast data ok 200");	
+	        //Sys.println("Forcast data ok 200");	
 	        //Sys.println(data);
 	        var mystring = "" + data;
 	        data = "";
