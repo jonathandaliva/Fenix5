@@ -663,7 +663,8 @@ class lateView extends Ui.WatchFace {
 			weatherIcon = Ui.loadResource(Rez.Drawables.Ice);
 		} else if ( description.find("Thunderstorm") != null ) {
 			weatherIcon = Ui.loadResource(Rez.Drawables.Thunder);
-		} else if ( description.find("Rain") != null || description.find("Drizzl") != null || description.find("Shower") != null ) {
+		//} else if ( description.find("Rain") != null || description.find("Drizzl") != null || description.find("Shower") != null ) {
+		} else if ( description.find("Rain") != null ) {
 			weatherIcon = Ui.loadResource(Rez.Drawables.Ice);
 		} else if ( description.find("Tornado") != null || description.find("Funnel") != null || description.find("Hurricane") != null || description.find("Tropical Storm") != null || description.find("Dust") != null || description.find("Sand") != null || description.find("Smoke") != null ) {
 			weatherIcon = Ui.loadResource(Rez.Drawables.Tornado);
