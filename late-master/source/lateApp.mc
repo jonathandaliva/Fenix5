@@ -32,7 +32,7 @@ class lateApp extends App.AppBase{
     	var now=Sys.getClockTime();
     	var ts=now.hour+":"+now.min.format("%02d");
     	//you'll see this gets called in both the foreground and background        
-        Sys.println("App initialize "+ts);
+        //Sys.println("App initialize "+ts);
     }
 
     function onStart(state) { }
@@ -101,7 +101,7 @@ class lateApp extends App.AppBase{
 	    	//Sys.println("index="+ index);
 	    	var tomorrowDesc = myString.substring(0,index);
 	    	myString = "";
-	    	Sys.println("Parsed vars: "+ todayHigh + ", " + todayLow + ", " + todayDesc + ", " + tomorrowHigh + ", " + tomorrowLow + ", " + tomorrowDesc);
+	    	//Sys.println("Parsed vars: "+ todayHigh + ", " + todayLow + ", " + todayDesc + ", " + tomorrowHigh + ", " + tomorrowLow + ", " + tomorrowDesc);
 	    	if(todayHigh.toNumber()!=999) {
 	    		bgTodayHigh=todayHigh;
 	        	App.getApp().setProperty(OSTodayHigh,todayHigh);
@@ -133,7 +133,7 @@ class lateApp extends App.AppBase{
     function getServiceDelegate(){
     	var now=Sys.getClockTime();
     	var ts=now.hour+":"+now.min.format("%02d");    
-    	Sys.println("getServiceDelegate: "+ts);
+    	//Sys.println("getServiceDelegate: "+ts);
         return [new LatebgServiceDelegate()];
     }
 }

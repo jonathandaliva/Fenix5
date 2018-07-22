@@ -329,17 +329,23 @@ class lateView extends Ui.WatchFace {
 			}
 			
 			//Draw forcast 
-			if ( bgValidResponse ) {
+			if ( bgValidResponse || ( bgTodayDesc!= "" && bgTomorrowDesc!="" ) ) {
 				dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_BLACK);
 				//var TempText = bgTomorrowLow;
-				var bgTodayHighNum = bgTodayHigh.toNumber();
-				if(bgTodayHigh != null && bgTodayHigh instanceof String && bgTodayHigh!="" && bgTodayHighNum instanceof Number) {
+				//var bgTodayHighNum = bgTodayHigh.toNumber();
+				if(bgTodayHigh != null && bgTodayHigh instanceof String && bgTodayHigh!="" && bgTodayHigh.toNumber() instanceof Number) {
 					//Sys.println("today high "+ bgTodayHigh +"|");
 					dc.drawText(centerX-18, centerY + 51, Gfx.FONT_SYSTEM_TINY, Lang.format("$1$°",[bgTodayHigh.toNumber().toString()]), Gfx.TEXT_JUSTIFY_CENTER);
 				}
-				dc.drawText(centerX-18, centerY + 77, Gfx.FONT_SYSTEM_TINY, Lang.format("$1$°",[bgTodayLow.toNumber().toString()]), Gfx.TEXT_JUSTIFY_CENTER);
-				dc.drawText(centerX+25, centerY + 51, Gfx.FONT_SYSTEM_TINY, Lang.format("$1$°",[bgTomorrowHigh.toNumber().toString()]), Gfx.TEXT_JUSTIFY_CENTER);
-				dc.drawText(centerX+25, centerY + 77, Gfx.FONT_SYSTEM_TINY, Lang.format("$1$°",[bgTomorrowLow.toNumber().toString()]), Gfx.TEXT_JUSTIFY_CENTER);
+				if(bgTodayLow != null && bgTodayLow instanceof String && bgTodayLow!="" && bgTodayLow.toNumber() instanceof Number) {
+					dc.drawText(centerX-18, centerY + 77, Gfx.FONT_SYSTEM_TINY, Lang.format("$1$°",[bgTodayLow.toNumber().toString()]), Gfx.TEXT_JUSTIFY_CENTER);
+				}	
+				if(bgTomorrowHigh != null && bgTomorrowHigh instanceof String && bgTomorrowHigh!="" && bgTomorrowHigh.toNumber() instanceof Number) {
+					dc.drawText(centerX+25, centerY + 51, Gfx.FONT_SYSTEM_TINY, Lang.format("$1$°",[bgTomorrowHigh.toNumber().toString()]), Gfx.TEXT_JUSTIFY_CENTER);
+				}	
+				if(bgTomorrowLow != null && bgTomorrowLow instanceof String && bgTomorrowLow!="" && bgTomorrowLow.toNumber() instanceof Number) {
+					dc.drawText(centerX+25, centerY + 77, Gfx.FONT_SYSTEM_TINY, Lang.format("$1$°",[bgTomorrowLow.toNumber().toString()]), Gfx.TEXT_JUSTIFY_CENTER);
+				}
 				
 				weatherIcon = getWeatherIcon(bgTodayDesc);				
                 dc.drawBitmap(centerX - 77, centerY + 54, weatherIcon);
@@ -663,9 +669,8 @@ class lateView extends Ui.WatchFace {
 			weatherIcon = Ui.loadResource(Rez.Drawables.Ice);
 		} else if ( description.find("Thunderstorm") != null ) {
 			weatherIcon = Ui.loadResource(Rez.Drawables.Thunder);
-		//} else if ( description.find("Rain") != null || description.find("Drizzl") != null || description.find("Shower") != null ) {
-		} else if ( description.find("Rain") != null ) {
-			weatherIcon = Ui.loadResource(Rez.Drawables.Ice);
+		} else if ( description.find("Rain") != null || description.find("Drizzl") != null || description.find("Shower") != null ) {
+			weatherIcon = Ui.loadResource(Rez.Drawables.Rain);
 		} else if ( description.find("Tornado") != null || description.find("Funnel") != null || description.find("Hurricane") != null || description.find("Tropical Storm") != null || description.find("Dust") != null || description.find("Sand") != null || description.find("Smoke") != null ) {
 			weatherIcon = Ui.loadResource(Rez.Drawables.Tornado);
 		} else if ( description.find("Wind") != null || description.find("Breez") != null ) {
